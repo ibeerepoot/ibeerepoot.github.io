@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iris Beerepoot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Iris Beerepoot</h1>
+    <p class="tagline">Assistant Professor, Process Science, Utrecht University</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <p>Korte bio hier.</p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div id="pub-list">Loading…</div>
+    </section>
+  </main>
+
+  <script>
+    const esc = s => String(s).replace(/[&<>"]/g, c =>
+      ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+    fetch('publications.json')
+      .then(r => r.json())
+      .then(pubs => {
+        const byYear = {};
+        pubs.forEach(p => (byYear[p.year] ??= []).push(p));
+
+        document.getElementById('pub-list').innerHTML = Object.keys(byYear)
+          .sort((a, b) => b - a)
+          .map(year => `
+            <h3>${year}</h3>
+            <ul>
+              ${byYear[year].map(p => `
+                <li>
+                  <span class="title">${p.link
+                    ? `<a href="${esc(p.link)}">${esc(p.title)}</a>`
+                    : esc(p.title)}</span>
+                  <span class="meta">${esc(p.authors.join(', '))}.
+                  <em>${esc(p.venue)}</em>.</span>
+                </li>`).join('')}
+            </ul>`).join('');
+      })
+      .catch(() => {
+        document.getElementById('pub-list').textContent =
+          'Publication list unavailable.';
+      });
+  </script>
+</body>
+</html>
