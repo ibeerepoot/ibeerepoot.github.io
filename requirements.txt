@@ -1,2 +1,1 @@
-cd /Users/irisbeerepoot/dev/website
-echo "xmltodict==0.13.0" > requirements.txt
+xmltodict==0.13.0
