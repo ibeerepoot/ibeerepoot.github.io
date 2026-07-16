@@ -1,0 +1,1264 @@
+[
+  {
+    "title": "Seeing and Understanding Process Ecosystems: A Case Study on Conference Submission Handling",
+    "authors": [
+      "N. Andrienko",
+      "G. Andrienko",
+      "I. Beerepoot",
+      "L. Cibulski",
+      "C. Di Ciccio",
+      "G. Meroni",
+      "C. Turkay",
+      "T. von Landesberger"
+    ],
+    "date": "2026",
+    "year": 2026,
+    "journal": null,
+    "conference": "2026 EuroVis Workshop on Visual Analytics, EuroVA 2026",
+    "doi": "10.2312/eurova.20261000",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/seeing-and-understanding-process-ecosystems-a-case-study-on-confe/",
+    "pure_pdf": "https://research-portal.uu.nl/files/295121018/eurova20261000.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Shadows of Transparency: Signaling Transparency-Impeding Behavior Using Public Data",
+    "authors": [
+      "Jos Zuijderwijk",
+      "Iris Beerepoot",
+      "Thomas Martens",
+      "Eva Knies",
+      "Tanja van der Lippe",
+      "Hajo A. Reijers"
+    ],
+    "date": "2026/06/12",
+    "year": 2026,
+    "journal": null,
+    "conference": null,
+    "doi": "10.48550/arXiv.2606.14377",
+    "arxiv": "http://arxiv.org/abs/2606.14377v1",
+    "pure_url": "https://research-portal.uu.nl/en/publications/shadows-of-transparency-signaling-transparency-impeding-behavior-/",
+    "pure_pdf": "https://research-portal.uu.nl/files/293584790/2606.14377v1.pdf",
+    "keywords": [
+      "Freedom of Information",
+      "Government Transparency",
+      "Behavioral Patterns",
+      "Organizational Behavior",
+      "E-Government"
+    ]
+  },
+  {
+    "title": "From Prompt to Process: Event Log Extraction From Relational Databases Using Large Language Models",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Marcus Dees",
+      "Henrik Leopold",
+      "Kiran Busch",
+      "Iris Beerepoot",
+      "Jan Martijn E.M. Van Der Werf",
+      "Hajo A. Reijers"
+    ],
+    "date": "2026/03",
+    "year": 2026,
+    "journal": "International Journal of Cooperative Information Systems",
+    "conference": null,
+    "doi": "10.1142/S0218843026500012",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/from-prompt-to-process-event-log-extraction-from-relational-datab/",
+    "pure_pdf": null,
+    "keywords": [
+      "assistance",
+      "event log extraction",
+      "large language model",
+      "LLM",
+      "Process mining",
+      "prompt engineering",
+      "relational database"
+    ]
+  },
+  {
+    "title": "Turning dialogues into event data: Lessons from GPT-based recognition of nursing actions",
+    "authors": [
+      "Iris Beerepoot",
+      "Sjaak Brinkkemper",
+      "Elke Huntink",
+      "Berfin Duman",
+      "Hajo A Reijers",
+      "Nienke Bleijenberg"
+    ],
+    "date": "2025/12",
+    "year": 2025,
+    "journal": "Journal of Biomedical Informatics",
+    "conference": null,
+    "doi": "10.1016/j.jbi.2025.104957",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/turning-dialogues-into-event-data-lessons-from-gpt-based-recognit/",
+    "pure_pdf": "https://research-portal.uu.nl/files/276565060/1-s2.0-S1532046425001868-main.pdf",
+    "keywords": [
+      "Clinical documentation",
+      "District nursing",
+      "Event log generation",
+      "Large language models",
+      "Nursing interventions",
+      "Process mining"
+    ]
+  },
+  {
+    "title": "AI4WPM: Een verkenning van AI-gedreven oplossingen voor het verminderen van regeldruk bij werkgebonden personenmobiliteit ",
+    "authors": [
+      "Jos Zuijderwijk",
+      "Iris Beerepoot"
+    ],
+    "date": "2025/06/25",
+    "year": 2025,
+    "journal": null,
+    "conference": null,
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/ai4wpm-een-verkenning-van-ai-gedreven-oplossingen-voor-het-vermin/",
+    "pure_pdf": "https://research-portal.uu.nl/files/273723668/99962957_Bijlage_6_AI4WPM_-_Een_verkenning_van_AI-gedreven_oplossingen_voor_het_verminderen_van_regeldruk_bij_werkgebonden_personenmobiliteit.pdf",
+    "keywords": [
+      "AI",
+      "kunstmatige intelligentie",
+      "Regeldruk",
+      "WPM"
+    ]
+  },
+  {
+    "title": "TAPAS: A Pattern-Based Approach to Assessing Government Transparency",
+    "authors": [
+      "Jos Zuijderwijk",
+      "Iris Beerepoot",
+      "Thomas Martens",
+      "Eva Knies",
+      "Tanja van der Lippe",
+      "Hajo A. Reijers"
+    ],
+    "date": "2025/08/20",
+    "year": 2025,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-032-01589-1_22",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/tapas-a-pattern-based-approach-toassessing-government-transparenc/",
+    "pure_pdf": "https://research-portal.uu.nl/files/277569576/978-3-032-01589-1_22.pdf",
+    "keywords": [
+      "Information Management",
+      "Information Systems",
+      "Open Government",
+      "Transparency"
+    ]
+  },
+  {
+    "title": "Identifying and Detecting Patterns in Work Organization with Active Window Tracking",
+    "authors": [
+      "Mari A.J. Braakman",
+      "Iris Beerepoot",
+      "Maria Peeters",
+      "Eva Knies",
+      "Hajo A. Reijers"
+    ],
+    "date": "2025/05/16",
+    "year": 2025,
+    "journal": null,
+    "conference": "19th International Conference on Research Challenges in Information Science, RCIS 2025",
+    "doi": "10.1007/978-3-031-92474-3_5",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/identifying-and-detecting-patterns-in-work-organization-with-acti/",
+    "pure_pdf": "https://research-portal.uu.nl/files/277458721/978-3-031-92474-3_5.pdf",
+    "keywords": [
+      "Active Window Tracking",
+      "Employee Behavior",
+      "Pattern Detection",
+      "Work Organization Patterns"
+    ]
+  },
+  {
+    "title": "TAPAS: A Pattern-Based Approach to Assessing Government Transparency",
+    "authors": [
+      "Jos Zuijderwijk",
+      "Iris Beerepoot",
+      "Thomas Martens",
+      "Eva Knies",
+      "Tanja van der Lippe",
+      "Hajo A. Reijers"
+    ],
+    "date": "2025/05/22",
+    "year": 2025,
+    "journal": null,
+    "conference": null,
+    "doi": "10.48550/arXiv.2505.16413",
+    "arxiv": "http://arxiv.org/abs/2505.16413v1",
+    "pure_url": "https://research-portal.uu.nl/en/publications/tapas-a-pattern-based-approach-to-assessing-government-transparen/",
+    "pure_pdf": "https://research-portal.uu.nl/files/264470343/2505.16413v1.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Process Mining Without Perfect Data? Anne Rozinat Says Yes!: A Practitioner’s View on Event Log Quality",
+    "authors": [
+      "Adela del Río Ortega",
+      "Iris Beerepoot",
+      "Han van der Aa",
+      "Joerg Evermann"
+    ],
+    "date": "2025/06",
+    "year": 2025,
+    "journal": "Business and Information Systems Engineering",
+    "conference": null,
+    "doi": "10.1007/s12599-025-00938-2",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/process-mining-without-perfect-data-anne-rozinat-says-yes-a-pract/",
+    "pure_pdf": "https://research-portal.uu.nl/files/271529910/s12599-025-00938-2.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Understanding Student Behavior Using Active Window Tracking and Process Mining",
+    "authors": [
+      "E. R. Mahendrawathi",
+      "Wouter van der Waal",
+      "Iris Beerepoot",
+      "M. Aqmal R.R. Putra",
+      "Hardhika Propitadewa"
+    ],
+    "date": "2025/03/28",
+    "year": 2025,
+    "journal": null,
+    "conference": "International Workshops which were held in conjunction with the 6th International Conference on Process Mining, ICPM 2024",
+    "doi": "10.1007/978-3-031-82225-4_9",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/understanding-student-behavior-using-active-window-tracking-and-p/",
+    "pure_pdf": "https://research-portal.uu.nl/files/262165759/978-3-031-82225-4_9.pdf",
+    "keywords": [
+      "active window tracking",
+      "event log",
+      "media multitasking",
+      "process mining",
+      "student behavior"
+    ]
+  },
+  {
+    "title": "Mapping Uncharted Territory: Exploring the (Mis)Match Between Event Data and Reality",
+    "authors": [
+      "Adela del Rio Ortega",
+      "Iris Beerepoot",
+      "Han van der Aa",
+      "Joerg Evermann"
+    ],
+    "date": "2025/06",
+    "year": 2025,
+    "journal": "Business and Information Systems Engineering",
+    "conference": null,
+    "doi": "10.1007/s12599-025-00939-1",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/mapping-uncharted-territory-exploring-the-mismatch-between-event-/",
+    "pure_pdf": "https://research-portal.uu.nl/files/271990904/s12599-025-00939-1.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Mining for Well-Being: The Potential of Process Mining for Evaluating Employee Well-Being",
+    "authors": [
+      "Mari A.J. Braakman",
+      "Jos Zuijderwijk",
+      "Iris Beerepoot",
+      "Sven Lugtigheid",
+      "Thomas Martens",
+      "Maria Peeters",
+      "Eva Knies",
+      "Hajo A. Reijers"
+    ],
+    "date": "2025",
+    "year": 2025,
+    "journal": null,
+    "conference": "22nd International Conference on Business Process Management, BPM 2024",
+    "doi": "10.1007/978-3-031-78666-2_14",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/mining-forwell-being-the-potential-ofprocess-mining-forevaluating/",
+    "pure_pdf": "https://research-portal.uu.nl/files/277458532/978-3-031-78666-2_14.pdf",
+    "keywords": [
+      "Job demands-resources model",
+      "Process mining",
+      "Work engagement",
+      "Work-related well-being"
+    ]
+  },
+  {
+    "title": "The Emergence and Evolution of Workarounds: A Study of Stability and Change",
+    "authors": [
+      "Wouter van der Waal",
+      "Inge van de Weerd",
+      "Iris Beerepoot",
+      "Hajo Reijers"
+    ],
+    "date": "2024/12/16",
+    "year": 2024,
+    "journal": null,
+    "conference": null,
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/the-emergence-and-evolution-of-workarounds-a-study-of-stability-a/",
+    "pure_pdf": "https://research-portal.uu.nl/files/251641559/The_Emergence_and_Evolution_of_Workarounds_-_A_Study_of_Stability_and_Change.pdf",
+    "keywords": [
+      "Workarounds",
+      "Healthcare",
+      "Process Mining",
+      "Business Process Management"
+    ]
+  },
+  {
+    "title": "Proceedings of the International Workshop on BPM Problems to Solve Before We Die (PROBLEMS 2021) co-located with the 19th International Conference on Business Process Management (BPM 2021), Rome, Italy, September 6-10, 2021",
+    "authors": [
+      "Iris Beerepoot",
+      "Claudio Di Ciccio",
+      "Andrea Marrella",
+      "Hajo A. Reijers",
+      "Stefanie Rinderle-Ma",
+      "Barbara Weber"
+    ],
+    "date": "2021/09",
+    "year": 2021,
+    "journal": null,
+    "conference": "2021 International Workshop on BPM Problems to Solve Before We Die, PROBLEMS 2021",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/proceedings-of-the-international-workshop-on-bpm-problems-to-solv/",
+    "pure_pdf": null,
+    "keywords": []
+  },
+  {
+    "title": "A Taste of the Different Flavors of Tiramisù",
+    "authors": [
+      "Anti Alman",
+      "Alessio Arleo",
+      "Iris Beerepoot",
+      "Andrea Burattin",
+      "Claudio Di Ciccio",
+      "Manuel Resinas"
+    ],
+    "date": "2024/10/09",
+    "year": 2024,
+    "journal": "CEUR Workshop Proceedings",
+    "conference": "Doctoral Consortium and Demo Track 2024 at the International Conference on Process Mining, ICPM-D 2024",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/a-taste-of-the-different-flavors-of-tiramis%C3%B9/",
+    "pure_pdf": "https://research-portal.uu.nl/files/243875757/paper_357.pdf",
+    "keywords": [
+      "Knowledge-intensive processes",
+      "Process mining",
+      "Visual analytics",
+      "Visualization"
+    ]
+  },
+  {
+    "title": "Work Tagger: A Labelling Companion",
+    "authors": [
+      "Manuel Resinas",
+      "Rocío Goñi-Medina",
+      "Iris Beerepoot",
+      "Adela del-Río-Ortega",
+      "Hajo A. Reijers"
+    ],
+    "date": "2024/10/15",
+    "year": 2024,
+    "journal": "CEUR Workshop Proceedings",
+    "conference": "Doctoral Consortium and Demo Track 2024 at the International Conference on Process Mining, ICPM-D 2024",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/work-tagger-a-labelling-companion/",
+    "pure_pdf": "https://research-portal.uu.nl/files/243874426/paper_363.pdf",
+    "keywords": [
+      "active window tracking",
+      "event abstraction",
+      "process mining",
+      "task classification"
+    ]
+  },
+  {
+    "title": "Preface",
+    "authors": [
+      "Claudio Di Ciccio",
+      "Walid Fdhila",
+      "Simone Agostinelli",
+      "Daniel Amyot",
+      "Henrik Leopold",
+      "Michal Krčál",
+      "Monika Malinova Mandelburger",
+      "Gregor Polančič",
+      "Katarina Tomičić-Pupek",
+      "Katarzyna Gdowska",
+      "Thomas Grisold",
+      "Piotr Sliż",
+      "Iris Beerepoot",
+      "Renata Gabryelczyk",
+      "Ralf Plattfaut"
+    ],
+    "date": "2024/08/31",
+    "year": 2024,
+    "journal": null,
+    "conference": "22nd International Conference on Business Process Management, BPM 2024",
+    "doi": "10.1007/978-3-031-70445-1",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/preface-94/",
+    "pure_pdf": "https://research-portal.uu.nl/files/243461294/preface_527.pdf",
+    "keywords": []
+  },
+  {
+    "title": "A Month’s Worth of Labelled Active Window Tracking Data",
+    "authors": [
+      "Iris Beerepoot"
+    ],
+    "date": "2024",
+    "year": 2024,
+    "journal": "CEUR Workshop Proceedings",
+    "conference": "Best Dissertation Award, Doctoral Consortium, and Demonstration and Resources Forum at 22nd International Conference on Business Process Management, BPM-D 2024",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/a-months-worth-of-labelled-active-window-tracking-data/",
+    "pure_pdf": null,
+    "keywords": [
+      "Active Window Tracking",
+      "cross-system data",
+      "Event data",
+      "UI logs"
+    ]
+  },
+  {
+    "title": "Event Log Extraction for Process Mining Using Large Language Models",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Marcus Dees",
+      "Henrik Leopold",
+      "Kiran  Busch",
+      "Iris Beerepoot",
+      "Jan Martijn van der Werf",
+      "Hajo Reijers"
+    ],
+    "date": "2025/02/14",
+    "year": 2025,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-031-81375-7_4",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/event-log-extraction-for-process-mining-using-large-language-mode/",
+    "pure_pdf": "https://research-portal.uu.nl/files/255624618/978-3-031-81375-7_4.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Capturing and Analysing Employee Behaviour: An Honest Day's Work Record",
+    "authors": [
+      "Iris Beerepoot",
+      "Tea Šinik",
+      "Hajo A. Reijers"
+    ],
+    "date": "2024/11",
+    "year": 2024,
+    "journal": "Data and Knowledge Engineering",
+    "conference": null,
+    "doi": "10.1016/j.datak.2024.102350",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/capturing-and-analysing-employee-behaviour-an-honest-days-work-re/",
+    "pure_pdf": "https://research-portal.uu.nl/files/239370240/1-s2.0-S0169023X24000740-main.pdf",
+    "keywords": [
+      "Data collection techniques",
+      "Employee behaviour",
+      "Methodologies and tools",
+      "Process mining",
+      "Quality and metrics",
+      "Work patterns"
+    ]
+  },
+  {
+    "title": "Unveiling Use Cases for Human Resource Mining: A Framework of Past and Future Research",
+    "authors": [
+      "Niels Martin",
+      "Iris Beerepoot"
+    ],
+    "date": "2025",
+    "year": 2025,
+    "journal": "Business and Information Systems Engineering",
+    "conference": null,
+    "doi": "10.1007/s12599-024-00894-3",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/unveiling-use-cases-for-human-resource-mining-a-framework-of-past/",
+    "pure_pdf": "https://research-portal.uu.nl/files/272698190/s12599-024-00894-3.pdf",
+    "keywords": [
+      "Event log",
+      "Human resource",
+      "Human resource mining",
+      "Organizational mining",
+      "Process mining",
+      "Team effectiveness"
+    ]
+  },
+  {
+    "title": "Tiramisù: making sense of multi-faceted process information through time and space",
+    "authors": [
+      "Anti Alman",
+      "Alessio Arleo",
+      "Iris Beerepoot",
+      "Andrea Burattin",
+      "Claudio Di Ciccio",
+      "Manuel Resinas"
+    ],
+    "date": "2026/06",
+    "year": 2026,
+    "journal": "Journal of Intelligent Information Systems",
+    "conference": null,
+    "doi": "10.1007/s10844-024-00875-8",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/tiramis%C3%B9-making-sense-of-multi-faceted-process-information-throug/",
+    "pure_pdf": "https://research-portal.uu.nl/files/292270192/s10844-024-00875-8.pdf",
+    "keywords": [
+      "Knowledge-intensive processes",
+      "Process mining",
+      "Visual analytics",
+      "Visualization"
+    ]
+  },
+  {
+    "title": "Tiramisù: A Recipe for Visual Sensemaking of Multi-faceted Process Information",
+    "authors": [
+      "Anti Alman",
+      "Alessio Arleo",
+      "Iris Beerepoot",
+      "Andrea Burattin",
+      "Claudio Di Ciccio",
+      "Manuel Resinas"
+    ],
+    "date": "2024/04/13",
+    "year": 2024,
+    "journal": null,
+    "conference": "International workshops which were held in conjunction with 5th International Conference on Process Mining, ICPM 2023",
+    "doi": "10.1007/978-3-031-56107-8_2",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/tiramis%C3%B9-a-recipe-forvisual-sensemaking-ofmulti-faceted-process-i/",
+    "pure_pdf": null,
+    "keywords": [
+      "Knowledge-intensive processes",
+      "Process mining",
+      "Visual analytics"
+    ]
+  },
+  {
+    "title": "From Loss of Interest to Denial: A Study on the Terminators of Process Mining Initiatives",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Henrik Leopold",
+      "Jan Martijn E. M. van der Werf",
+      "Iris Beerepoot",
+      "Hajo Reijers"
+    ],
+    "date": "2024/06/03",
+    "year": 2024,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-031-61057-8_22",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/from-loss-of-interest-to-denial-a-study-on-the-terminators-of-pro/",
+    "pure_pdf": "https://research-portal.uu.nl/files/227461210/978-3-031-61057-8_22.pdf",
+    "keywords": [
+      "Insights to action",
+      "Obstacles",
+      "Process improvement",
+      "Process mining"
+    ]
+  },
+  {
+    "title": "Putting the SWORD to the Test: Finding Workarounds with Process Mining",
+    "authors": [
+      "Wouter van der Waal",
+      "Inge van de Weerd",
+      "Iris Beerepoot",
+      "Xixi Lu",
+      "Teus Kappen",
+      "Saskia Haitjema",
+      "Hajo Reijers"
+    ],
+    "date": "2025",
+    "year": 2025,
+    "journal": "Business and Information Systems Engineering",
+    "conference": null,
+    "doi": "10.1007/s12599-023-00846-3",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/putting-the-sword-to-the-test-finding-workarounds-with-process-mi/",
+    "pure_pdf": "https://research-portal.uu.nl/files/261658087/s12599-023-00846-3_1_.pdf",
+    "keywords": [
+      "Event data",
+      "Pattern detection",
+      "Process mining",
+      "Workaround"
+    ]
+  },
+  {
+    "title": "A Window of Opportunity: Active Window Tracking for Mining Work Practices",
+    "authors": [
+      "Iris Beerepoot",
+      "Daniel Barenholz",
+      "Stijn Beekhuis",
+      "Jens Gulden",
+      "Suhwan Lee",
+      "Xixi Lu",
+      "Sietse Overbeek",
+      "Inge Van De Weerd",
+      "Jan Martijn Van Der Werf",
+      "Hajo A. Reijers"
+    ],
+    "date": "2023/10/27",
+    "year": 2023,
+    "journal": null,
+    "conference": "5th International Conference on Process Mining, ICPM 2023",
+    "doi": "10.1109/ICPM60904.2023.10271961",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/a-window-of-opportunity-active-window-tracking-for-mining-work-pr/",
+    "pure_pdf": "https://research-portal.uu.nl/files/203719731/A_Window_of_Opportunity_Active_Window_Tracking_for_Mining_Work_Practices.pdf",
+    "keywords": [
+      "active window tracking",
+      "personal informatics",
+      "process mining",
+      "UI logs",
+      "work practices"
+    ]
+  },
+  {
+    "title": "From automatic workaround detection to process improvement: a case study",
+    "authors": [
+      "Nesi Outmazgin",
+      "Wouter van der Waal",
+      "Iris Beerepoot",
+      "Irith Hadar",
+      "Inge van de Weerd",
+      "Pnina Soffer"
+    ],
+    "date": "2023/09/01",
+    "year": 2023,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-031-41623-1_22",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/from-automatic-workaround-detection-to-process-improvement-a-case/",
+    "pure_pdf": "https://research-portal.uu.nl/files/211789281/978-3-031-41623-1_22.pdf",
+    "keywords": [
+      "Business process improvements",
+      "Workarounds",
+      "Automatic detection",
+      "Motivational analysis",
+      "Event logs",
+      "Case study"
+    ]
+  },
+  {
+    "title": "Turning Logs Into Lumber: Preprocessing Tasks in Process Mining",
+    "authors": [
+      "Ying Liu",
+      "Vinicius Stein Dani",
+      "Iris Beerepoot",
+      "Xixi Lu"
+    ],
+    "date": "2024/04/13",
+    "year": 2024,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-031-56107-8_8",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/turning-logs-into-lumber-preprocessing-tasks-in-process-mining/",
+    "pure_pdf": null,
+    "keywords": [
+      "Event log",
+      "Log preprocessing",
+      "Process mining"
+    ]
+  },
+  {
+    "title": "From Process Mining Insights to Process Improvement: All Talk and No Action?",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Henrik Leopold",
+      "Jan Martijn van der Werf",
+      "Iris Beerepoot",
+      "Hajo Reijers"
+    ],
+    "date": "2024",
+    "year": 2024,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-031-46846-9_15",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/from-process-mining-insights-to-process-improvement-all-talk-and-/",
+    "pure_pdf": "https://research-portal.uu.nl/files/211124625/978-3-031-46846-9_15.pdf",
+    "keywords": [
+      "Process mining",
+      "Insights to action",
+      "Process improvement",
+      "Systematic literature review"
+    ]
+  },
+  {
+    "title": "Getting Your RPA Priorities Straight with Process Mining: The PLOST Framework",
+    "authors": [
+      "Hilde E. Jongeling",
+      "Xixi Lu",
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
+    ],
+    "date": "2023/05/11",
+    "year": 2023,
+    "journal": null,
+    "conference": null,
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/getting-your-rpa-priorities-straight-with-process-mining-the-plos/",
+    "pure_pdf": "https://research-portal.uu.nl/files/187617439/Getting_Your_RPA_Priorities_Straight_with_Process_Mining_The_PLOST_Framework.pdf",
+    "keywords": []
+  },
+  {
+    "title": "From Insights to INTEL: Evaluating Process Mining Insights with Healthcare Professionals",
+    "authors": [
+      "Iris Beerepoot",
+      "Niels Martin",
+      "Jelmer Koorn"
+    ],
+    "date": "2023/01",
+    "year": 2023,
+    "journal": null,
+    "conference": "56th Annual Hawaii International Conference on System Sciences, HICSS 2023",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/from-insights-to-intel-evaluating-process-mining-insights-with-he/",
+    "pure_pdf": null,
+    "keywords": [
+      "domain experts",
+      "evaluation",
+      "healthcare",
+      "process improvement",
+      "process mining"
+    ]
+  },
+  {
+    "title": "A Peek into the Working Day: Comparing Techniques for Recording Employee Behaviour",
+    "authors": [
+      "Tea Šinik",
+      "Iris Beerepoot",
+      "Hajo A. Reijers"
+    ],
+    "date": "2023/05/23",
+    "year": 2023,
+    "journal": null,
+    "conference": "17th International Conference on Research Challenges in Information Sciences, RCIS 2023",
+    "doi": "10.1007/978-3-031-33080-3_21",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/a-peek-intotheworking-day-comparing-techniques-forrecording-emplo/",
+    "pure_pdf": "https://research-portal.uu.nl/files/211797991/978-3-031-33080-3_21.pdf",
+    "keywords": [
+      "Data Collection Techniques",
+      "Employee Behaviour",
+      "Observation",
+      "Screen Recording",
+      "Timesheet",
+      "Work Patterns"
+    ]
+  },
+  {
+    "title": "The biggest business process management problems to solve before we die",
+    "authors": [
+      "Iris Beerepoot",
+      "Claudio Di Ciccio",
+      "Hajo A. Reijers",
+      "Stefanie Rinderle-Ma",
+      "Wasana Bandara",
+      "Andrea Burattin",
+      "Diego Calvanese",
+      "Tianwa Chen",
+      "Izack Cohen",
+      "Benoît Depaire",
+      "Gemma Di Federico",
+      "Marlon Dumas",
+      "Christopher van Dun",
+      "Tobias Fehrer",
+      "Dominik A. Fischer",
+      "Avigdor Gal",
+      "Marta Indulska",
+      "Vatche Isahagian",
+      "Christopher Klinkmüller",
+      "Wolfgang Kratsch",
+      "Henrik Leopold",
+      "Amy Van Looy",
+      "Hugo Lopez",
+      "Sanja Lukumbuzya",
+      "Jan Mendling",
+      "Lara Meyers",
+      "Linda Moder",
+      "Marco Montali",
+      "Vinod Muthusamy",
+      "Manfred Reichert",
+      "Yara Rizk",
+      "Michael Rosemann",
+      "Maximilian Röglinger",
+      "Shazia Sadiq",
+      "Ronny Seiger",
+      "Tijs Slaats",
+      "Mantas Simkus",
+      "Ida Asadi Someh",
+      "Barbara Weber",
+      "Ingo Weber",
+      "Mathias Weske",
+      "Francesca Zerbato"
+    ],
+    "date": "2023/04",
+    "year": 2023,
+    "journal": "Computers in Industry",
+    "conference": null,
+    "doi": "10.1016/j.compind.2022.103837",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/the-biggest-business-process-management-problems-to-solve-before-/",
+    "pure_pdf": "https://research-portal.uu.nl/files/148261634/1_s2.0_S0166361522002330_main.pdf",
+    "keywords": [
+      "Business process management",
+      "Business process redesign",
+      "Digital twins",
+      "Grand challenges",
+      "Process mining",
+      "Process modeling"
+    ]
+  },
+  {
+    "title": "On the Origin of Questions in Process Mining Projects",
+    "authors": [
+      "Francesca Zerbato",
+      "Jelmer J. Koorn",
+      "Iris Beerepoot",
+      "Barbara Weber",
+      "Hajo A. Reijers"
+    ],
+    "date": "2022/09/28",
+    "year": 2022,
+    "journal": null,
+    "conference": "26th International Conference on Enterprise Design, Operations, and Computing, EDOC 2022",
+    "doi": "10.1007/978-3-031-17604-3_10",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/on-theorigin-ofquestions-inprocess-mining-projects/",
+    "pure_pdf": "https://research-portal.uu.nl/files/139634293/978_3_031_17604_3_10.pdf",
+    "keywords": [
+      "Interview study",
+      "Process mining",
+      "Process mining methodology",
+      "Question development"
+    ]
+  },
+  {
+    "title": "Active Anomaly Detection for Key Item Selection in Process Auditing",
+    "authors": [
+      "Ruben Post",
+      "Iris Beerepoot",
+      "Xixi Lu",
+      "Stijn Kas",
+      "Sebastiaan Wiewel",
+      "Angelique Koopman",
+      "Hajo Reijers"
+    ],
+    "date": "2022",
+    "year": 2022,
+    "journal": null,
+    "conference": "3rd International Conference on Process Mining, ICPM 2021",
+    "doi": "10.1007/978-3-030-98581-3_13",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/active-anomaly-detection-forkey-item-selection-inprocess-auditing/",
+    "pure_pdf": "https://research-portal.uu.nl/files/134645381/978_3_030_98581_3_13.pdf",
+    "keywords": [
+      "Anomaly Detection",
+      "Auditing",
+      "Domain Knowledge",
+      "Process Mining"
+    ]
+  },
+  {
+    "title": "Encourage autonomy to increase individual work performance: the impact of job characteristics on workaround behavior and shadow IT usage",
+    "authors": [
+      "Aline de Vargas Pinto",
+      "Iris Beerepoot",
+      "Antônio Carlos Gastaud Maçada"
+    ],
+    "date": "2023/09",
+    "year": 2023,
+    "journal": "Information Technology and Management",
+    "conference": null,
+    "doi": "10.1007/s10799-022-00368-6",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/encourage-autonomy-to-increase-individual-work-performance-the-im/",
+    "pure_pdf": "https://research-portal.uu.nl/files/187601302/s10799-022-00368-6.pdf",
+    "keywords": [
+      "Autonomy",
+      "Individual performance",
+      "Job characteristics",
+      "Shadow IT usage",
+      "Workaround behavior"
+    ]
+  },
+  {
+    "title": "The SWORD is Mightier Than the Interview: A Framework for Semi-automatic WORkaround Detection",
+    "authors": [
+      "Wouter van der Waal",
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
+    ],
+    "date": "2022/09/07",
+    "year": 2022,
+    "journal": null,
+    "conference": "20th International Conference on Business Process Management, BPM 2022",
+    "doi": "10.1007/978-3-031-16103-2_9",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/the-sword-is-mightier-than-theinterview-a-framework-forsemi-autom/",
+    "pure_pdf": "https://research-portal.uu.nl/files/133002644/SWORD.pdf",
+    "keywords": [
+      "Workarounds",
+      "Automated Detection",
+      "Event data",
+      "Healthcare",
+      "Process Mining",
+      "Business Process Analysis"
+    ]
+  },
+  {
+    "title": "Using AI to augment RPA: A conceptual framework",
+    "authors": [
+      "Inge van de Weerd",
+      "Bart Nieuwenhuis",
+      "Floris Bex",
+      "Iris Beerepoot"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "journal": null,
+    "conference": "29th European Conference on Information Systems, ECIS 2021",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/using-ai-to-augment-rpa-a-conceptual-framework/",
+    "pure_pdf": null,
+    "keywords": []
+  },
+  {
+    "title": "Workarounds: The Path From Detection to Improvement",
+    "authors": [
+      "Iris Maria Beerepoot"
+    ],
+    "date": "2022/05/11",
+    "year": 2022,
+    "journal": null,
+    "conference": null,
+    "doi": "10.33540/1270",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/workarounds-the-path-from-detection-to-improvement/",
+    "pure_pdf": "https://research-portal.uu.nl/files/119401392/I%20M%20%20Beerepoot%20-%20thesis.pdf",
+    "keywords": [
+      "Workarounds",
+      "zorginformatiesystemen",
+      "ziekenhuizen",
+      "procesverbetering",
+      "werkprocessen",
+      "zorgprocessen",
+      "zorgprofessionals",
+      "afwijkingen",
+      "process mining",
+      "observationeel onderzoek"
+    ]
+  },
+  {
+    "title": "Process Mining for Healthcare: Characteristics and Challenges",
+    "authors": [
+      "Jorge Munoz-Gama",
+      "Niels Martin",
+      "Carlos Fernandez-Llatas",
+      "Owen A Johnson",
+      "Marcos Sepúlveda",
+      "Emmanuel Helm",
+      "Victor Galvez-Yanjari",
+      "Eric Rojas",
+      "Antonio Martinez-Millana",
+      "Davide Aloini",
+      "Ilaria Angela Amantea",
+      "Robert Andrews",
+      "Michael Arias",
+      "Iris Beerepoot",
+      "Elisabetta Benevento",
+      "Andrea Burattin",
+      "Daniel Capurro",
+      "Josep Carmona",
+      "Marco Comuzzi",
+      "Benjamin Dalmas",
+      "Rene de la Fuente",
+      "Chiara Di Francescomarino",
+      "Claudio Di Ciccio",
+      "Roberto Gatta",
+      "Chiara Ghidini",
+      "Fernanda Gonzalez-Lopez",
+      "Gema Ibanez-Sanchez",
+      "Hilda B Klasky",
+      "Angelina Prima Kurniati",
+      "Xixi Lu",
+      "Felix Mannhardt",
+      "Ronny Mans",
+      "Mar Marcos",
+      "Renata Medeiros de Carvalho",
+      "Marco Pegoraro",
+      "Simon K Poon",
+      "Luise Pufahl",
+      "Hajo A Reijers",
+      "Simon Remy",
+      "Stefanie Rinderle-Ma",
+      "Lucia Sacchi",
+      "Fernando Seoane",
+      "Minseok Song",
+      "Alessandro Stefanini",
+      "Emilio Sulis",
+      "Arthur H M Ter Hofstede",
+      "Pieter J Toussaint",
+      "Vicente Traver",
+      "Zoe Valero-Ramon",
+      "Inge van de Weerd",
+      "Wil M P van der Aalst",
+      "Rob Vanwersch",
+      "Mathias Weske",
+      "Moe Thandar Wynn",
+      "Francesca Zerbato"
+    ],
+    "date": "2022/03",
+    "year": 2022,
+    "journal": "Journal of Biomedical Informatics",
+    "conference": null,
+    "doi": "10.1016/j.jbi.2022.103994",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/process-mining-for-healthcare-characteristics-and-challenges/",
+    "pure_pdf": "https://research-portal.uu.nl/files/114011635/1_s2.0_S1532046422000107_main.pdf",
+    "keywords": [
+      "Healthcare",
+      "Process mining"
+    ]
+  },
+  {
+    "title": "Towards Understanding the Role of the Human in Event Log Extraction",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Henrik Leopold",
+      "Jan Martijn van der Werf",
+      "Xixi Lu",
+      "Iris Beerepoot",
+      "Jelmer Koorn",
+      "Hajo Reijers"
+    ],
+    "date": "2022/01/25",
+    "year": 2022,
+    "journal": null,
+    "conference": "17th International Workshop on Business Process Intelligence",
+    "doi": "10.1007/978-3-030-94343-1_7",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/towards-understanding-the-role-of-the-human-in-event-log-extracti/",
+    "pure_pdf": "https://research-portal.uu.nl/files/231889283/978-3-030-94343-1_7.pdf",
+    "keywords": [
+      "Event log extraction",
+      "Human tasks",
+      "Process mining"
+    ]
+  },
+  {
+    "title": "DEUCE - A Methodology for Detecting Unauthorized Access of Electronic Health Records Using Process Mining.",
+    "authors": [
+      "Victor van Andel",
+      "Iris Beerepoot",
+      "Xixi Lu",
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "journal": null,
+    "conference": "29th European Conference on Information Systems, ECIS 2021",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/deuce-a-methodology-for-detecting-unauthorized-access-of-electron/",
+    "pure_pdf": null,
+    "keywords": [
+      "Process Mining",
+      "Electronic Health Records",
+      "Unauthorized Access",
+      "Security",
+      "Deviations"
+    ]
+  },
+  {
+    "title": "Bringing Rigor to the Qualitative Evaluation of Process Mining Findings: An Analysis and a Proposal",
+    "authors": [
+      "Jelmer J. Koorn",
+      "Iris Beerepoot",
+      "Vinicius Stein Dani",
+      "Xixi Lu",
+      "Inge van de Weerd",
+      "Henrik Leopold",
+      "Hajo A. Reijers"
+    ],
+    "date": "2021/10/31",
+    "year": 2021,
+    "journal": null,
+    "conference": "3rd International Conference on Process Mining, ICPM 2021",
+    "doi": "10.1109/icpm53251.2021.9576877",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/bringing-rigor-to-the-qualitative-evaluation-of-process-mining-fi/",
+    "pure_pdf": "https://research-portal.uu.nl/files/233986904/Bringing_Rigor_to_the_Qualitative_Evaluation_of_Process_Mining_Findings_An_Analysis_and_a_Proposal.pdf",
+    "keywords": [
+      "Domain Expert",
+      "Evaluation",
+      "Methodology",
+      "Process Mining",
+      "Qualitative Research"
+    ]
+  },
+  {
+    "title": "The biggest business process management problems of our time",
+    "authors": [
+      "Iris Beerepoot",
+      "Claudio Di Ciccio",
+      "Hajo A. Reijers",
+      "Stefanie Rinderle-Ma"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "journal": "CEUR Workshop Proceedings",
+    "conference": "2021 International Workshop on BPM Problems to Solve Before We Die, PROBLEMS 2021",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/the-biggest-business-process-management-problems-of-our-time/",
+    "pure_pdf": "https://research-portal.uu.nl/files/114338213/paper_PROBLEMS_01.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Preface",
+    "authors": [
+      "Iris Beerepoot",
+      "Claudio Di Ciccio",
+      "Andrea Marrella",
+      "Hajo A. Reijers",
+      "Stefanie Rinderle-Ma",
+      "Barbara Weber"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "journal": "CEUR Workshop Proceedings",
+    "conference": "2021 International Workshop on BPM Problems to Solve Before We Die, PROBLEMS 2021",
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/preface-21/",
+    "pure_pdf": "https://research-portal.uu.nl/files/114335066/xpreface.pdf",
+    "keywords": []
+  },
+  {
+    "title": "Seeing the Signs of Workarounds: A Mixed-Methods Approach to the Detection of Nurses’ Process Deviations",
+    "authors": [
+      "Iris Beerepoot",
+      "Xixi Lu",
+      "Inge Van De Weerd",
+      "Hajo Alexander Reijers"
+    ],
+    "date": "2021/01/05",
+    "year": 2021,
+    "journal": null,
+    "conference": null,
+    "doi": "10.24251/hicss.2021.456",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/seeing-the-signs-of-workarounds-a-mixed-methods-approach-to-the-d/",
+    "pure_pdf": "https://research-portal.uu.nl/files/95645231/0371.pdf",
+    "keywords": []
+  },
+  {
+    "title": "How to Keep RPA Maintainable?",
+    "authors": [
+      "Philip Noppen",
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Mathieu Jonker",
+      "Hajo A. Reijers"
+    ],
+    "date": "2020",
+    "year": 2020,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-030-58666-9_26",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/how-to-keep-rpa-maintainable/",
+    "pure_pdf": "https://research-portal.uu.nl/files/76179548/Noppen2020_Chapter_HowToKeepRPAMaintainable.pdf",
+    "keywords": [
+      "Federated organizational model",
+      "Governance",
+      "RPA Center of Excellence",
+      "RPA maintenance",
+      "Robotic Process Automation"
+    ]
+  },
+  {
+    "title": "The Potential of Workarounds for Improving Processes",
+    "authors": [
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
+    ],
+    "date": "2019",
+    "year": 2019,
+    "journal": null,
+    "conference": null,
+    "doi": "10.1007/978-3-030-37453-2_28",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/the-potential-of-workarounds-for-improving-processes/",
+    "pure_pdf": "https://research-portal.uu.nl/files/115572022/Beerepoot2019_Chapter_ThePotentialOfWorkaroundsForIm.pdf",
+    "keywords": [
+      "workarounds",
+      "information systems",
+      "process improvement"
+    ]
+  },
+  {
+    "title": "Working around health information systems: The role of power",
+    "authors": [
+      "I.M. Beerepoot",
+      "J.J. Koorn",
+      "G.C. van de Weerd",
+      "Bart van den Hoof",
+      "H. Leopold",
+      "H.A. Reijers"
+    ],
+    "date": "2019",
+    "year": 2019,
+    "journal": null,
+    "conference": null,
+    "doi": null,
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/working-around-health-information-systems-the-role-of-power/",
+    "pure_pdf": null,
+    "keywords": [
+      "Health Information Systems",
+      "workarounds",
+      "power",
+      "physicians",
+      "nurses"
+    ]
+  },
+  {
+    "title": "Business Process Improvement Activities: Differences in Organizational Size, Culture, and Resources",
+    "authors": [
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
+    ],
+    "date": "2019/01/01",
+    "year": 2019,
+    "journal": null,
+    "conference": "17th International Conference on Business Process Management, BPM 2019",
+    "doi": "10.1007/978-3-030-26619-6_26",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/business-process-improvement-activities-differences-in-organizati/",
+    "pure_pdf": "https://research-portal.uu.nl/files/70107577/Beerepoot2019_Chapter_BusinessProcessImprovementActi.pdf",
+    "keywords": [
+      "Business process improvement",
+      "Context-awareness",
+      "Workarounds"
+    ]
+  }
+]

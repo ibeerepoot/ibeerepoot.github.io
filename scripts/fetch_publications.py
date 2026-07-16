@@ -63,6 +63,14 @@ def pick_link(ee):
             return link
     return links[0] if links else None
 
+def arxiv_id(entry, key):
+    if key and key.startswith("journals/corr/abs-"):
+        return key.replace("journals/corr/abs-", "")
+    for e in listify(entry.get("ee")):
+        link = e["#text"] if isinstance(e, dict) else e
+        if "arxiv.org/abs/" in link:
+            return link.split("arxiv.org/abs/", 1)[1]
+    return None
 
 def main():
     req = urllib.request.Request(URL, headers={"User-Agent": "irisbeerepoot-site/1.0"})
@@ -82,6 +90,7 @@ def main():
                 "type": TYPE_LABELS[kind],
                 "link": pick_link(entry.get("ee")),
                 "key": entry.get("@key"),
+                "arxiv": arxiv_id(entry, entry.get("@key")),
             })
 
     published = {p["title"].lower() for p in raw if p["venue"] != "CoRR"}
