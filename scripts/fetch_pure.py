@@ -79,6 +79,13 @@ def venue_of(html, description):
     publisher = meta_one(html, "citation_publisher")
     return publisher or ""
 
+def abstract_of(html):
+    m = re.search(r'class="textblock">(.*?)</div>', html, re.S)
+    if not m:
+        return None
+    text = re.sub(r"<[^>]+>", " ", m.group(1))
+    text = unescape(re.sub(r"\s+", " ", text)).strip()
+    return text or None
 
 def main():
     items = []
@@ -124,6 +131,7 @@ def main():
             "pure_url": url,
             "pdf": meta_one(html, "citation_pdf_url"),
             "keywords": keywords_of(html),
+            "abstract": abstract_of(html),
         })
 
         p = pubs[-1]
@@ -144,6 +152,10 @@ def main():
 
     print(f"\n{len(pubs)} weggeschreven")
     print(f"{sum(1 for p in pubs if p['pdf'])} met PDF")
+    with_abstract = sum(1 for p in pubs if p["abstract"])
+    print(f"{with_abstract} met abstract")
+    if with_abstract < len(pubs) * 0.5:
+        print("  WAARSCHUWING: weinig abstracts gevonden, check of Pure's HTML is veranderd")
     print(f"{len(kw)} unieke keywords\n")
 
     print("Types:")

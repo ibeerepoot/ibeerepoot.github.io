@@ -109,7 +109,7 @@
         all = pubs;
         all.forEach(p => p._search = [
           p.title, p.venue, p.authors.join(' '), p.year,
-          (p.keywords || []).join(' ')
+          (p.keywords || []).join(' '), p.abstract
         ].join(' ').toLowerCase());
 
         // Keywords tellen, case-insensitief, met de mooiste spelling als label

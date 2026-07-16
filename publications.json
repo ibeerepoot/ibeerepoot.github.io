@@ -29,7 +29,8 @@
       "Process mining",
       "prompt engineering",
       "relational database"
-    ]
+    ],
+    "abstract": "Process mining enables organizations to discover, monitor, and analyze their work processes based on data. A fundamental requirement for initiating a process mining project is the availability of an event log, which is not always readily available. In such cases, extracting an event log typically involves various time-consuming tasks, such as writing custom structured query language (SQL) scripts to extract relevant data into an event log format from a relational database. In this work, we explore the potential of large language models (LLMs) to support event log extraction for process mining by leveraging LLMs’ ability to produce SQL scripts. We evaluate the effectiveness of LLMs in assisting this process and analyze their performance across a range of scenarios. Despite the inherent non-determinism of LLM outputs, our findings highlight the potential of future LLM-assisted tools in automating event log extraction, particularly when provided with the appropriate domain and data knowledge context. The implementation of such tools could democratize access to process mining by reducing the need for specialized technical expertise for producing relational database query scripts and minimizing manual effort."
   },
   {
     "title": "Seeing and Understanding Process Ecosystems: A Case Study on Conference Submission Handling",
@@ -54,7 +55,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/seeing-and-understanding-process-ecosystems-a-case-study-on-confe/",
     "pdf": "https://research-portal.uu.nl/files/295121018/eurova20261000.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": "Process mining traditionally focuses on individual processes, prioritizing case-level control flow and performance. Yet many organizations operate process ecosystems: collections of interrelated processes sharing resources, schedules and goals. This paper explores how visual analytics can support interactive analysis of such ecosystems. Using scientific conference management as a case study, we characterize submission handling as a multi-instance, multi-actor, multi-phase ecosystem. We derive representative analysis tasks and present a prototypical visual analytics system combining temporally aligned overview and detailed visualizations to reveal bottlenecks, actor workloads, and delays across concurrent processes. Using a realistic synthetic event log, we demonstrate ecosystem-level analysis and discuss design implications for visual process analytics."
   },
   {
     "title": "Shadows of Transparency: Signaling Transparency-Impeding Behavior Using Public Data",
@@ -83,7 +85,8 @@
       "Behavioral Patterns",
       "Organizational Behavior",
       "E-Government"
-    ]
+    ],
+    "abstract": "Freedom of Information (FOI) laws aim to increase government transparency, yet existing assessments focus mainly on legal compliance and procedural outcomes, leaving organizational behavior underexamined. As FOI processes are increasingly mediated through digital information systems, public response data offer traces of how organizations handle requests and disclosures in practice. This paper develops and evaluates a pattern-based approach that uses such data to signal transparency-impeding behavior across government agencies and over time. Drawing on prior literature, we identify nine recurring behavioral patterns that undermine transparency. Using a dataset of 15,277 Dutch FOI dossiers comprising 139,449 documents, we operationalize and evaluate measurable indicators for six of these patterns, demonstrating that they enable systematic comparison of disclosure practices across agencies and over time. Expert interviews with researchers, journalists, and civil servants confirm the interpretability and practical usefulness of the indicators for investigative prioritization, comparative research, and transparency oversight."
   },
   {
     "title": "Tiramisù: making sense of multi-faceted process information through time and space",
@@ -111,7 +114,8 @@
       "Process mining",
       "Visual analytics",
       "Visualization"
-    ]
+    ],
+    "abstract": "Knowledge-intensive processes represent a particularly challenging scenario for process mining. The flexibility that such processes allow constitutes a hurdle as they are hard to capture in a single model. To tackle this problem, multiple visual representations of the same processes could be beneficial, each addressing different information dimensions according to the specific needs and background knowledge of the concrete process workers and stakeholders. In this paper, we propose, describe, and evaluate a framework, named Tiramisù, that leverages visual analytics for the interactive visualization of multi-faceted process information, aimed at supporting the investigation and insight generation of users in their process analysis tasks. Tiramisù is based on a multi-layer visualization methodology that includes a visual backdrop that provides context and an arbitrary number of superimposed and on-demand dimension layers. This arrangement allows our framework to display process information from different perspectives and to project this information onto a domain-friendly representation of the context in which the process unfolds. We provide an in-depth description of the approach’s founding principles, deeply rooted in visualization research, that justify our design choices for the whole framework. We demonstrate the feasibility of the framework through its application in two use-case scenarios in the context of healthcare and personal information management. Plus, we conducted qualitative evaluations with potential end users of both scenarios, gathering precious insights about the efficacy and applicability of our framework to various application domains."
   },
   {
     "title": "AI4WPM: Een verkenning van AI-gedreven oplossingen voor het verminderen van regeldruk bij werkgebonden personenmobiliteit ",
@@ -135,7 +139,8 @@
       "kunstmatige intelligentie",
       "Regeldruk",
       "WPM"
-    ]
+    ],
+    "abstract": null
   },
   {
     "title": "Event Log Extraction for Process Mining Using Large Language Models",
@@ -159,7 +164,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/event-log-extraction-for-process-mining-using-large-language-mode/",
     "pdf": "https://research-portal.uu.nl/files/255624618/978-3-031-81375-7_4.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": "Process mining is a discipline that enables organizations to discover and analyze their work processes. A prerequisite for conducting a process mining initiative is the so-called event log, which is not always readily available. In such cases, extracting an event log involves various time-consuming tasks, such as creating tailor-made structured query language (SQL) scripts to extract an event log from a relational database. With this work, we investigate the use of large language models (LLMs) to support event log extraction, particularly by leveraging LLMs ability to produce SQL scripts. In this paper, we report on how effectively an LLM can assist with event log extraction for process mining. Despite the intrinsic non-deterministic nature of LLMs, our results show the potential of future LLM-assisted event log extraction tools, especially when domain and data knowledge are available. The implementation of such tools can increase access to event log extraction to a broader range of users within an organization by reducing the reliance on specialized technical skills for producing relational database query scripts and minimizing manual effort."
   },
   {
     "title": "Identifying and Detecting Patterns in Work Organization with Active Window Tracking",
@@ -186,7 +192,8 @@
       "Employee Behavior",
       "Pattern Detection",
       "Work Organization Patterns"
-    ]
+    ],
+    "abstract": "Collecting data on the organization of work by individual employees has become increasingly feasible, with time-tracking applications offering valuable insights into how individuals structure their tasks and projects. Active Window Tracking (AWT) is one such method that captures data from computers on the systems the individual used and windows that were active at a certain point in time. The use of AWT data provides an opportunity to enhance research approaches by offering objective, data-driven insights into work behavior across multiple systems. In semi-structured interviews, we identified four work organization patterns within the context of academic staff: Bundling, Starting, Ending, and Dividing. We show how the work organization patterns can be detected from AWT data of three individuals covering multiple months. Using examples from the data, we demonstrate how work organization patterns can provide insights into work behavior. The findings highlight the potential of AWT data, which can be leveraged to inform strategies to optimize performance and employee well-being."
   },
   {
     "title": "Mapping Uncharted Territory: Exploring the (Mis)Match Between Event Data and Reality",
@@ -207,7 +214,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/mapping-uncharted-territory-exploring-the-mismatch-between-event-/",
     "pdf": "https://research-portal.uu.nl/files/271990904/s12599-025-00939-1.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "Mining for Well-Being: The Potential of Process Mining for Evaluating Employee Well-Being",
@@ -237,7 +245,8 @@
       "Process mining",
       "Work engagement",
       "Work-related well-being"
-    ]
+    ],
+    "abstract": "Monitoring work-related well-being is crucial for organizational success and part of good employment practices. This paper explores how process mining can evaluate employee well-being by conceptualizing variables of various work characteristics using the Job Demands-Resources model (JD-R), which explains how work characteristics influence employee well-being. We explored how the process mining variables compare to validated survey measures. Data was collected in two ways: first, a survey was conducted to measure the work characteristics of monotonous work, time pressure, workload, social support, and autonomy and the well-being outcomes of burnout, boredom, and work engagement. Second, process mining was used to calculate scores for the same work characteristics so that the scores could be compared with the survey variables. No strong correlations were found between corresponding survey variables and process mining variables. However, results reveal strong correlations between process mining variables of workload, social support, and autonomy with the survey variable of work engagement. These findings suggest that process mining variables can be valuable for predicting work-related well-being, especially work engagement. The combination of process mining and survey research has the potential to increase our comprehension of work-related well-being, make data collection more efficient, and monitor work engagement continuously."
   },
   {
     "title": "Process Mining Without Perfect Data? Anne Rozinat Says Yes!: A Practitioner’s View on Event Log Quality",
@@ -258,7 +267,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/process-mining-without-perfect-data-anne-rozinat-says-yes-a-pract/",
     "pdf": "https://research-portal.uu.nl/files/271529910/s12599-025-00938-2.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "Putting the SWORD to the Test: Finding Workarounds with Process Mining",
@@ -287,7 +297,8 @@
       "Pattern detection",
       "Process mining",
       "Workaround"
-    ]
+    ],
+    "abstract": "Workarounds, or deviations from standardized operating procedures, can indicate discrepancies between theory and practice in work processes. Traditionally, observations and interviews have been used to identify workarounds, but these methods can be time-consuming and may not capture all workarounds. The paper presents the Semi-automated WORkaround Detection (SWORD) framework, which leverages event log traces to help process analysts identify workarounds. The framework is evaluated in a multiple-case study of two hospital departments. The results of the study indicate that with SWORD we were able to identify 11 unique workaround types, with limited knowledge about the actual processes. The framework thus supports the discovery of workarounds while minimizing the dependence on domain knowledge, which limits the time investment required by domain experts. The findings highlight the importance of leveraging technology to improve the detection of workarounds and to support process improvement efforts in organizations."
   },
   {
     "title": "TAPAS: A Pattern-Based Approach to Assessing Government Transparency",
@@ -310,7 +321,8 @@
     "arxiv": "http://arxiv.org/abs/2505.16413v1",
     "pure_url": "https://research-portal.uu.nl/en/publications/tapas-a-pattern-based-approach-to-assessing-government-transparen/",
     "pdf": "https://research-portal.uu.nl/files/264470343/2505.16413v1.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": "Government transparency, widely recognized as a cornerstone of open government, depends on robust information management practices. Yet effective assessment of information management remains challenging, as existing methods fail to consider the actual working behavior of civil servants and are resource-intensive. Using a design science research approach, we present the Transparency Anti-Pattern Assessment System (TAPAS) -- a novel, data-driven methodology designed to evaluate government transparency through the identification of behavioral patterns that impede transparency. We demonstrate TAPAS's real-world applicability at a Dutch ministry, analyzing their electronic document management system data from the past two decades. We identify eight transparency anti-patterns grouped into four categories: Incomplete Documentation, Limited Accessibility, Unclear Information, and Delayed Documentation. We show that TAPAS enables continuous monitoring and provides actionable insights without requiring significant resource investments."
   },
   {
     "title": "TAPAS: A Pattern-Based Approach to Assessing Government Transparency",
@@ -338,7 +350,8 @@
       "Information Systems",
       "Open Government",
       "Transparency"
-    ]
+    ],
+    "abstract": "Government transparency, widely recognized as a cornerstone of open government, depends on robust information management practices. Yet effective assessment of information management remains challenging, as existing methods fail to consider the actual working behavior of civil servants and are resource-intensive. Using a design science research approach, we present the Transparency Anti-Pattern Assessment System (TAPAS)—a novel, data-driven methodology designed to evaluate government transparency through the identification of behavioral patterns that impede transparency. We demonstrate TAPAS’s real-world applicability at a Dutch ministry, analyzing their electronic document management system data from the past two decades. We identify eight transparency anti-patterns grouped into four categories: Incomplete Documentation, Limited Accessibility, Unclear Information, and Delayed Documentation. We show that TAPAS enables continuous monitoring and provides actionable insights without requiring significant resource investments."
   },
   {
     "title": "Turning dialogues into event data: Lessons from GPT-based recognition of nursing actions",
@@ -368,7 +381,8 @@
       "Large language models",
       "Nursing interventions",
       "Process mining"
-    ]
+    ],
+    "abstract": "OBJECTIVE: To assess the feasibility of using a large language model (LLM) to generate structured event logs from conversational data in home-based nursing care, with the goal of reducing the documentation burden and enabling process analysis. METHODS: We conducted an exploratory study involving 27 audio-recorded home care visits between district nurses and patients. These recordings were transcribed and used as input for a Generative Pre-Trained Transformer (GPT) to identify nursing interventions and construct event logs, using the standardised Nursing Interventions Classification (NIC) system. We applied and evaluated different prompts through an iterative, interdisciplinary process involving computer scientists and nurse researchers. RESULTS: GPT demonstrated reasonable ability to extract nursing interventions from conversational transcripts, especially when activities were discussed explicitly and temporally aligned. Challenges emerged when information was implicit, ambiguous, or not captured in the dialogue. We propose five guidelines for using LLMs in this context, addressing data source limitations, activity label selection, confidence calibration, hallucination handling, and stakeholder-specific output needs. These guidelines provide lessons that extend beyond home care to other domains where conversational data must be translated into structured process insights. CONCLUSION: LLMs show promise for transforming informal clinical dialogue into structured representations of care. While expert oversight and tailored prompts remain essential, future model improvements may enhance reliability. Still, applications in real-world healthcare contexts must be handled with care to ensure accuracy, transparency, and stakeholder trust."
   },
   {
     "title": "Understanding Student Behavior Using Active Window Tracking and Process Mining",
@@ -396,7 +410,8 @@
       "media multitasking",
       "process mining",
       "student behavior"
-    ]
+    ],
+    "abstract": "This paper proposes a new way of collecting and processing event logs using Active Window Tracking (AWT) to investigate media multitasking (MMT) among students in higher education institutions in Indonesia. Students recorded their computer windows while doing assignments and midterms. Data from the students were preprocessed and structured into event logs. Correlation analysis indicated that MMT has no direct correlation with performance. The PM results revealed that students engaging in MMT frequently switch between assignments, social media, and multimedia. High-scoring students focused more on assignment-related activities, while low-scoring students started late, multitasked extensively, and submitted their work close to the deadline. While these results indicate that MMT does not directly affect the student’s performance for the type of assignment, MMT extends work duration. Students tend to work closer to the deadline, so they often work very late into the night, negatively impacting their well-being. Recommendations are provided to mitigate these issues."
   },
   {
     "title": "Unveiling Use Cases for Human Resource Mining: A Framework of Past and Future Research",
@@ -422,7 +437,8 @@
       "Organizational mining",
       "Process mining",
       "Team effectiveness"
-    ]
+    ],
+    "abstract": "Human resources are considered a strategic asset for organizations and play a key role in the execution of business processes. Hence, organizations should provide an environment that enables them to operate in an effective and efficient manner. To shape such an environment, an improved understanding and monitoring of the real-life involvement of human resources in processes and the teams in which they operate would be beneficial. Using event data from information systems, process mining can play a role in this respect. Over the years, several human resource mining methods have been developed, i.e., process mining methods that convey insights related to the human resources in a process using an event log. However, there is a lack of a holistic understanding of the breadth of these methods. Against this backdrop, the paper uses a systematic literature review to develop a framework providing an overview of human resource mining use cases. These use cases are classified according to two dimensions: the level of analysis (individual versus multiple human resources) and the focus of analysis (organization-focused versus human-focused). The authors illustrate the versatility of process mining for providing insights into human resources and highlight opportunities for further enriching and extending this area of research to analyze, among other things, how teams of resources can perform better."
   },
   {
     "title": "A Month’s Worth of Labelled Active Window Tracking Data",
@@ -445,7 +461,8 @@
       "cross-system data",
       "Event data",
       "UI logs"
-    ]
+    ],
+    "abstract": "Recent process mining techniques provide interesting new ways to uncover and comprehend complex work practices within organisations. The efficacy of process mining, however, is contingent upon the accessibility and quality of event logs. This paper introduces and describes a publicly-available dataset containing labelled Active Window Tracking data, capturing my app usage and active screen titles over the course of four weeks. It aims to support diverse studies: classifying activities from window titles, identifying action patterns, and developing new visualisations for detailed process data. By making this resource available, I aim to encourage the development of new process mining techniques that provide detailed insights into work practices."
   },
   {
     "title": "A Taste of the Different Flavors of Tiramisù",
@@ -473,7 +490,8 @@
       "Process mining",
       "Visual analytics",
       "Visualization"
-    ]
+    ],
+    "abstract": "The amalgamation of process mining and visual analytics holds the promise for a fruitful new frontier of process exploration, where both fields provide crucial ingredients to the resulting delicacy. The field of process mining brings the concepts of events, traces, and process thinking in general, while the field of visual analytics brings the idea of interactive and cyclical analysis, accounting for the expectations and desires of specific domains and the individuals therein. In this paper, we focus on one such delicacy, aptly named the Tiramisù framework, presenting two flavors of the corresponding multi-layered recipe. More specifically, we build on our earlier work to provide refined servings of Tiramisù for the healthcare and the personal informatics domain, with both being taste-tested by the end users, and the latter being significantly enhanced as a result."
   },
   {
     "title": "Capturing and Analysing Employee Behaviour: An Honest Day's Work Record",
@@ -500,7 +518,8 @@
       "Process mining",
       "Quality and metrics",
       "Work patterns"
-    ]
+    ],
+    "abstract": "For a range of reasons, organisations collect data on the work behaviour of their employees. However, each data collection technique displays its own unique mix of intrusiveness, information richness, and risks. For the sake of understanding the differences between data collection techniques, we conducted a multiple-case study in a multinational professional services organisation, tracking six participants throughout a workday using non-participant observation, screen recording, and timesheet techniques. This led to 136 hours of data. Our findings show that relying on one data collection technique alone cannot provide a comprehensive and accurate account of activities that are screen-based, offline, or overtime. The collected data also provided an opportunity to investigate the use of process mining for analysing employee behaviour, specifically with respect to the completeness of the collected data. Our study underlines the importance of judiciously selecting data collection techniques, as well as using a sufficiently broad data set to generate reliable insights into employee behaviour."
   },
   {
     "title": "From Loss of Interest to Denial: A Study on the Terminators of Process Mining Initiatives",
@@ -527,7 +546,8 @@
       "Obstacles",
       "Process improvement",
       "Process mining"
-    ]
+    ],
+    "abstract": "Process mining has been used to obtain insights into work processes in various industries. While there is plenty of evidence that process mining has helped a number of organizations to improve their processes, there are also a few studies indicating that it did not happen in other cases. An obvious yet frequently overlooked challenge in that context is that organizations actually need to take action based on the insights process mining tools and techniques provide. In practice, analysts typically use process mining insights to recommend actions, which then need to be performed and implemented, for example, by process owners or management. If, however, recommended actions are not performed, the insights will not help organizations to progress into process improvement either. Recognizing this, we use this paper to develop a better understanding of the extent to which recommended actions are actually performed, as well as the causes hampering the progress from recommended to performed actions. To this end, we combine a systematic literature review involving 57 papers with 17 semi-structured interviews of process mining experts. Based on our analysis, we discover specific causes why organizations do not perform recommended actions. These findings are crucial for both researchers and organizations to develop measures to anticipate and mitigate these causes."
   },
   {
     "title": "From Process Mining Insights to Process Improvement: All Talk and No Action?",
@@ -554,7 +574,8 @@
       "Insights to action",
       "Process improvement",
       "Systematic literature review"
-    ]
+    ],
+    "abstract": "Organizations from various domains use process mining to better understand, analyze, and improve their business processes. While the overall value of process mining has been shown in several contexts, little is known about the specific actions that are taken to move from process mining insights to process improvement. In this work, we address this research gap by conducting a systematic literature review. Specifically, we investigate which types of actions have been taken in existing studies and to which insights these actions are linked. Our findings show that there exists a large variety of actions. Many of these actions do not only relate to changes to the investigated process but also to the associated information systems, the process documentation, the communication between staff members, and personnel training. Understanding the diversity of the actions triggered by process mining insights is important to instigate future research on the different aspects of translating process mining insights into process improvement. The insights-to-action realm presented in this work can inform and inspire new process mining initiatives and prepare for the effort required after acquiring process mining insights."
   },
   {
     "title": "Preface",
@@ -586,7 +607,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/preface-94/",
     "pdf": "https://research-portal.uu.nl/files/243461294/preface_527.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "The Emergence and Evolution of Workarounds: A Study of Stability and Change",
@@ -612,7 +634,8 @@
       "Healthcare",
       "Process Mining",
       "Business Process Management"
-    ]
+    ],
+    "abstract": "Workarounds are often assumed to be quick fixes or stable practices. As most processes tend to change over time, we investigate this assumption. In an embedded case study, we analyze 13 years of process data from a large university teaching hospital. We investigate how the ratio of 10 workarounds changes over this period. We find that some workarounds remain stable over time, while others may change suddenly, temporarily, or continuously over time. We use historical documents to identify incidents that influence the use of workarounds and find that the dynamics of a workaround may switch between temporal categories. In contrast to earlier theories, we find that workers seem to adopt workarounds based on an individual need rather than a collective adoption after one person discovers it. In addition to these additions to current theory, we suggest future work that can answer currently open questions surrounding the evolution of workarounds."
   },
   {
     "title": "Tiramisù: A Recipe for Visual Sensemaking of Multi-faceted Process Information",
@@ -639,7 +662,8 @@
       "Knowledge-intensive processes",
       "Process mining",
       "Visual analytics"
-    ]
+    ],
+    "abstract": "Knowledge-intensive processes represent a particularly challenging scenario for process mining. The flexibility that such processes allow constitutes a hurdle as it is hard to capture in a single model. To tackle this problem, multiple visual representations of the same processes could be beneficial, each addressing different information dimensions according to the specific needs and background knowledge of the concrete process workers and stakeholders. In this idea paper, we propose a novel framework leveraging visual analytics for the interactive visualization of multi-faceted process information, aimed at easing the investigation tasks of users in their process analysis tasks. This is primarily achieved by an interconnection of multiple visual layers, which allow our framework to display process information under different perspectives and to project these perspectives onto a domain-friendly representation of the context in which the process unfolds. We demonstrate the feasibility of the framework through its application in two use-case scenarios in the context of healthcare and personal information management."
   },
   {
     "title": "Turning Logs Into Lumber: Preprocessing Tasks in Process Mining",
@@ -664,7 +688,8 @@
       "Event log",
       "Log preprocessing",
       "Process mining"
-    ]
+    ],
+    "abstract": "Event logs are invaluable for conducting process mining projects, offering insights into process improvement and data-driven decision-making. However, data quality issues affect the correctness and trustworthiness of these insights, making preprocessing tasks a necessity. Despite the recognized importance, the execution of preprocessing tasks remains ad-hoc, lacking support. This paper presents a systematic literature review that establishes a comprehensive repository of preprocessing tasks and their usage in case studies. We identify six high-level and 20 low-level preprocessing tasks in case studies. Log filtering, transformation, and abstraction are commonly used, while log enriching, integration, and reduction are less frequent. These results can be considered a first step in contributing to more structured, transparent event log preprocessing, enhancing process mining reliability."
   },
   {
     "title": "Work Tagger: A Labelling Companion",
@@ -691,7 +716,8 @@
       "event abstraction",
       "process mining",
       "task classification"
-    ]
+    ],
+    "abstract": "In settings where data is recorded at a fine-granular level, it needs to be abstracted to enable process mining. While several event abstraction techniques exist, the majority are supervised and require manually labelled datasets, a process that is both time-consuming and critical for developing new methods. To streamline this process, we introduce a tool designed to facilitate the tagging of fine-granular data using predefined activities, with a specific focus on Active Window Tracking (AWT) data. The tool offers features such as data visualization, filtering, and automatic classification based on GPT, which can be adjusted by the user. Our evaluation, involving four researchers tagging their AWT data, demonstrates that increased experience with the tool leads to faster tagging, and we discuss potential future enhancements."
   },
   {
     "title": "A Peek into the Working Day: Comparing Techniques for Recording Employee Behaviour",
@@ -718,7 +744,8 @@
       "Screen Recording",
       "Timesheet",
       "Work Patterns"
-    ]
+    ],
+    "abstract": "Detailed recordings of employee behaviour can give organisations valuable insights into their work processes. However, recording techniques each have their advantages and disadvantages in terms of their obtrusiveness for participants, the richness of information they capture, and the risks that are involved. In an effort to systematically compare recording techniques, we conducted a multiple-case study at a multinational professional services organisation. We followed six participants for a working day, comparing the outcomes from non-participant observation, screen recording, and timesheet techniques. We generated 136:04 h of data and 849 records of activities. We identified 58 differences between the techniques. The results show that the use of only one technique will not produce a complete and accurate record of the activities that occur on the screen (online), in the hallway (offline), and in the extra hours (overtime). Therefore, it is vital to choose a technique wisely, taking into account the type of information it does not capture. Furthermore, this study identifies some open challenges with respect to accurately recording employee behaviour."
   },
   {
     "title": "A Window of Opportunity: Active Window Tracking for Mining Work Practices",
@@ -751,7 +778,8 @@
       "process mining",
       "UI logs",
       "work practices"
-    ]
+    ],
+    "abstract": "The field of process mining has evolved from discovering single work processes towards providing broad insights into peoples' work practices. Existing techniques can be used to analyse such work practices, but this can be problematic if the available data is limited to the use of a single IT system or is not captured at the right level of granularity. We propose the use of a personal informatics technique, called Active Window Tracking (AWT), as a new way of gathering data for mining work practices. In this study, we identify the opportunities that this technique brings through a case study within our research group. In particular, we show how AWT helps to: capture previously-unrecorded work activities, expose the relations between work processes, and navigate between different levels of data granularity. The technique, which allows for generating new data as well as complementing existing data, is a valuable asset for the community when it comes to better understanding people's work practices across individual systems and processes."
   },
   {
     "title": "Encourage autonomy to increase individual work performance: the impact of job characteristics on workaround behavior and shadow IT usage",
@@ -777,7 +805,8 @@
       "Job characteristics",
       "Shadow IT usage",
       "Workaround behavior"
-    ]
+    ],
+    "abstract": "IT users are increasingly experienced at adapting technologies to their needs; resulting in the widespread use of workarounds and shadow IT. To ascertain the impact of job characteristics on this behavior, a survey was conducted among 415 IT users. The collected data underwent Reliability Analysis and Exploratory Factor Analysis in SPSS software. Subsequently, Confirmatory Factor Analysis and Structural Equation Modeling were conducted with the SmartPLS software. The main results indicate that autonomy is strongly related to workaround behavior and shadow IT usage. Workaround behavior and shadow IT use have also been proven to be strongly related. However, the level of skill variety and task identity do not seem to significantly affect workaround behavior and shadow IT usage. Finally, this study’s findings demonstrate that both workaround behavior and shadow IT use are positively related to individual performance. Organizations are therefore encouraged to increase job autonomy in order to achieve enhanced individual performance by presenting workers with opportunities to adapt technologies in the form of workarounds and shadow IT. The use of such alternative solutions provides for faster and more dynamic communication and thus boosts collaboration among co-workers, external partners, and clients."
   },
   {
     "title": "From Insights to INTEL: Evaluating Process Mining Insights with Healthcare Professionals",
@@ -803,7 +832,8 @@
       "healthcare",
       "process improvement",
       "process mining"
-    ]
+    ],
+    "abstract": "As healthcare organisations are looking for ways to improve their processes, process mining techniques are increasingly being used. Current process mining methods do not offer support for translating process mining insights into actionable improvement ideas. By performing action research at two healthcare organisations, we introduce and illustrate the INTEL funnel, a novel three-staged method consisting of process familiarisation, domain explanation and improvement ideation. Our method complements existing process mining methods and constitutes the first attempt to open the black box regarding the path from process mining insights to actionable process improvement ideas. In this way, it can contribute to a more systematic uptake of process mining in healthcare practice."
   },
   {
     "title": "From automatic workaround detection to process improvement: a case study",
@@ -833,7 +863,8 @@
       "Motivational analysis",
       "Event logs",
       "Case study"
-    ]
+    ],
+    "abstract": "The improvement of business processes through learning and investigating workarounds has attracted research attention in recent years. Workarounds can be considered as a symptom of needed process improvements but adopting them does not necessarily lead to an appropriate one. Hence, identifying and understanding the underlying problems or perceived barriers that motivate workarounds is essential for suggesting an appropriate process improvement solution. In this paper, we propose a streamlined end-to-end approach that attempts to leverage workarounds to improve processes. This approach is based on two pillars: (1) a semi-automated workarounds detection by using the SWORD framework, which consists of twenty-two patterns to detect workarounds from events logs. (2) workarounds investigation and analysis using a motivational model that serves to reveal problems that lie under the identified workarounds. This analysis contributes toward proposing tailored and targeted process improvements. We report on an industrial case study that demonstrates the proposed approach, from workaround detection to proposing tailored process improvements. The improvements have been accepted by the organization and are currently being implemented."
   },
   {
     "title": "Getting Your RPA Priorities Straight with Process Mining: The PLOST Framework",
@@ -855,7 +886,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/getting-your-rpa-priorities-straight-with-process-mining-the-plos/",
     "pdf": "https://research-portal.uu.nl/files/187617439/Getting_Your_RPA_Priorities_Straight_with_Process_Mining_The_PLOST_Framework.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": "Robotic Process Automation (RPA) has gained much attention both in industry and academia. One of the main challenges for a successful implementation of RPA is selecting which tasks should be automated. While different methods exist to identify RPA candidate tasks, they lack in providing objective evidence on why to automate that task. Such objective evidence can be gathered by applying process mining techniques to gain insights into the performance of a process and its tasks. Although this has multiple advantages, it can be time-consuming to analyze all potential processes. We conducted a literature review of existing methods to identify relevant criteria and method components, based on which we designed a framework for identifying and prioritizing suitable RPA candidate tasks: the Prioritized List of Suitable Tasks (PLOST) Framework. The framework includes both qualitative and quantitative assessment criteria and guides the analyst to focus on relevant processes before zooming in on the task level. It also takes into account a customized automation strategy. We conducted a case study to evaluate the applicability and effectiveness of the PLOST Framework and performed thinking-aloud sessions to evaluate its usability, practicality, and completeness. The results show that the framework is easy to apply and feasible."
   },
   {
     "title": "The biggest business process management problems to solve before we die",
@@ -921,7 +953,8 @@
       "Grand challenges",
       "Process mining",
       "Process modeling"
-    ]
+    ],
+    "abstract": "It may be tempting for researchers to stick to incremental extensions of their current work to plan future research activities. Yet there is also merit in realizing the grand challenges in one's field. This paper presents an overview of the nine major research problems for the Business Process Management discipline. These challenges have been collected by an open call to the community, discussed and refined in a workshop setting, and described here in detail, including a motivation why these problems are worth investigating. This overview may serve the purpose of inspiring both novice and advanced scholars who are interested in the radical new ideas for the analysis, design, and management of work processes using information technology."
   },
   {
     "title": "Active Anomaly Detection for Key Item Selection in Process Auditing",
@@ -950,7 +983,8 @@
       "Auditing",
       "Domain Knowledge",
       "Process Mining"
-    ]
+    ],
+    "abstract": "Process mining allows auditors to retrieve crucial information about transactions by analysing the process data of a client. We propose an approach that supports the identification of unusual or unexpected transactions, also referred to as exceptions. These exceptions can be selected by auditors as “key items”, meaning the auditors wants to look further into the underlying documentation of the transaction. The approach encodes the traces, assigns an anomaly score to each trace, and uses the domain knowledge of auditors to update the assigned anomaly scores through active anomaly detection. The approach is evaluated with three groups of auditors over three cycles. The results of the evaluation indicate that the approach has the potential to support the decision-making process of auditors. Although auditors still need to make a manual selection of key items, they are able to better substantiate this selection. As such, our research can be seen as a step forward with respect to the usage of anomaly detection and data analysis in process auditing."
   },
   {
     "title": "On the Origin of Questions in Process Mining Projects",
@@ -977,7 +1011,8 @@
       "Process mining",
       "Process mining methodology",
       "Question development"
-    ]
+    ],
+    "abstract": "In line with the growing popularity of process mining, several methodologies have been proposed to guide the conduct of process mining projects. Such methodologies reason that process mining projects start with a concrete question. However, in practice we observe projects with a different starting point, often aimed at exploring the data. Existing methodologies provide limited aid in such situations, and as a result, we wonder: how are questions developed within process mining projects? In this paper, we present the results of an interview study that sheds light on question development in process mining. We provide insights from expert interviewees, resulting in six recommendations that enhance existing methodologies. In doing so, we present concrete examples of how process mining analyses can support question formulation and refinement."
   },
   {
     "title": "Process Mining for Healthcare: Characteristics and Challenges",
@@ -1052,7 +1087,8 @@
     "keywords": [
       "Healthcare",
       "Process mining"
-    ]
+    ],
+    "abstract": "Process mining techniques can be used to analyse business processes using the data logged during their execution. These techniques are leveraged in a wide range of domains, including healthcare, where it focuses mainly on the analysis of diagnostic, treatment, and organisational processes. Despite the huge amount of data generated in hospitals by staff and machinery involved in healthcare processes, there is no evidence of a systematic uptake of process mining beyond targeted case studies in a research context. When developing and using process mining in healthcare, distinguishing characteristics of healthcare processes such as their variability and patient-centred focus require targeted attention. Against this background, the Process-Oriented Data Science in Healthcare Alliance has been established to propagate the research and application of techniques targeting the data-driven improvement of healthcare processes. This paper, an initiative of the alliance, presents the distinguishing characteristics of the healthcare domain that need to be considered to successfully use process mining, as well as open challenges that need to be addressed by the community in the future."
   },
   {
     "title": "The SWORD is Mightier Than the Interview: A Framework for Semi-automatic WORkaround Detection",
@@ -1080,7 +1116,8 @@
       "Healthcare",
       "Process Mining",
       "Business Process Analysis"
-    ]
+    ],
+    "abstract": "Workarounds can give valuable insights into the work processes that are carried out within organizations. To date, workarounds are usually identified using qualitative methods, such as interviews. We propose the semi-automated WORkaround Detection (SWORD) framework, which takes event logs as input. This extensible framework uses twenty-two patterns to semi-automatically detect workarounds. The value of the SWORD framework is that it can help to identify workarounds more efficiently and more thoroughly than is possible by the use of a more traditional, qualitative approach. Through the use of real hospital data, we demonstrate the applicability and effectiveness of the SWORD framework in practice. We focused on the use of three patterns, which all turned out to be applicable to the characteristics of the data set. The use of two of these patterns also led to the identification of actual workarounds. Future work is geared to the extension of the patterns within the framework and the enhancement of techniques that can help to identify these in real-world data."
   },
   {
     "title": "Towards Understanding the Role of the Human in Event Log Extraction",
@@ -1108,7 +1145,8 @@
       "Event log extraction",
       "Human tasks",
       "Process mining"
-    ]
+    ],
+    "abstract": "Process mining is widely used to visualize, analyze, and improve business processes. However, often its application is hindered by the considerable preparation effort that needs to be conducted by humans. One of the key tasks required in this context is obtaining the input artifact for process mining techniques: the event log. The data that is required for building such an event log typically needs to be collected from several databases and then transformed into a suitable format. While it has become clear to both academics and practitioners that the amount of human work is substantial, there is no deep understanding of the exact activities humans need to perform. Therefore, we use this paper to develop a precise understanding of how humans are involved in event log extraction. Based on a structured literature review and qualitative data coding, we derive a taxonomy of human tasks in event log extraction. This taxonomy can serve as input for both future automation efforts, as well as for process mining methodologies."
   },
   {
     "title": "Workarounds: The Path From Detection to Improvement",
@@ -1137,7 +1175,8 @@
       "afwijkingen",
       "process mining",
       "observationeel onderzoek"
-    ]
+    ],
+    "abstract": "Health Information Systems are built to support work processes in healthcare organisations. In advance, it is difficult to plan how those processes will run in practice. Nurses, doctors, and other healthcare professionals, run into obstacles when using these systems in their daily work. In an attempt to circumvent these obstacles, they use so-called workarounds: intentional deviations from the prescribed work process. These workarounds are common in healthcare organisations and can have both beneficial and detrimental effects on healthcare processes. This PhD thesis sets out from the conviction that workarounds – beneficial or not – can serve to indicate misalignments between information systems and the work processes they are supposed to support. Using a wide range of methods and techniques, we offer a number of solutions for detecting and analysing workarounds in healthcare organisations, all with the aim of improving work processes in healthcare. We contribute to the scientific literature and healthcare practice in the form of (1) providing insights into the factors that are important in the emergence of workarounds, (2) offering insights into the correct way of addressing different types of workarounds, (3) providing methodological support for detecting and analysing workarounds, and (4) providing methodological support for translating knowledge about workarounds into actionable ideas for process improvements."
   },
   {
     "title": "Bringing Rigor to the Qualitative Evaluation of Process Mining Findings: An Analysis and a Proposal",
@@ -1167,7 +1206,8 @@
       "Methodology",
       "Process Mining",
       "Qualitative Research"
-    ]
+    ],
+    "abstract": "Before the findings of a process mining project can be turned into actionable insights or recommendations, it is essential to make sure that the findings are actually valid. Therefore, the evaluation of the findings is a crucial part of a successful process mining project. Current process mining methodologies, however, fall short in providing actionable support to perform such an evaluation. This is especially true when domain experts are involved. To close this gap, we performed a literature study considering all process mining case studies published in the last two decades. In total, we identified 244 candidate papers of which we analyzed 80 in depth. Based on this literature study, we found a need for a more systematic approach for qualitative evaluations in process mining projects where domain experts are involved. Therefore, we build on these results to propose six validation strategies, which originate from qualitative research. We believe that this proposal for more rigor in the evaluation phase of process mining projects helps to move the discipline forward."
   },
   {
     "title": "DEUCE - A Methodology for Detecting Unauthorized Access of Electronic Health Records Using Process Mining.",
@@ -1195,7 +1235,8 @@
       "Unauthorized Access",
       "Security",
       "Deviations"
-    ]
+    ],
+    "abstract": "Hospitals have a keen interest to root out unauthorized access of Electronic Health Records (EHRs). The retrospective analysis of suspicious EHR views may help to take preventive measures against such access. However, investigating EHR access manually is labor-intensive and only allows for checking a small sample of cases. We explore how process mining techniques can be used to support the detection of unauthorized views. In the context of EHR access, it is easier to define authorized views with certainty than to detect unauthorized views. Therefore, we propose DEUCE: a methodology that focuses on identifying authorized behavior, such that unauthorized views are distinguished, and can be investigated more in-depth. We evaluate the methodology in the form of a case study at a Dutch hospital. As a result of this study, the hospital has adopted the approach in favor of their traditional approach and unauthorized EHR access is now more efficiently detected."
   },
   {
     "title": "Preface",
@@ -1218,7 +1259,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/preface-21/",
     "pdf": "https://research-portal.uu.nl/files/114335066/xpreface.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "Proceedings of the International Workshop on BPM Problems to Solve Before We Die (PROBLEMS 2021) co-located with the 19th International Conference on Business Process Management (BPM 2021), Rome, Italy, September 6-10, 2021",
@@ -1241,7 +1283,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/proceedings-of-the-international-workshop-on-bpm-problems-to-solv/",
     "pdf": null,
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "Seeing the Signs of Workarounds: A Mixed-Methods Approach to the Detection of Nurses’ Process Deviations",
@@ -1262,7 +1305,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/seeing-the-signs-of-workarounds-a-mixed-methods-approach-to-the-d/",
     "pdf": "https://research-portal.uu.nl/files/95645231/0371.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": "Workarounds are intentional deviations from prescribed processes. They are most commonly studied in healthcare settings, where nurses are known for frequently deviating from the intended way of using health information systems. However, workarounds in healthcare have only been studied using qualitative methods, such as observations and interviews. We conduct a case study in a Dutch hospital and use a mixed-methods approach that draws not only on interviews and observations, but also on process mining, to detect and analyse eight workarounds that occur in a clinical care process. We contribute to theory by demonstrating that it is possible to use data to determine the occurrence of a rich variety of workarounds found using qualitative methods. Practically, this implies that workarounds that are identified qualitatively can be further analysed and monitored using quantitative methods. Once identified, workarounds also provide an attractive starting point for organisational learning and improvement."
   },
   {
     "title": "The biggest business process management problems of our time",
@@ -1283,7 +1327,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/the-biggest-business-process-management-problems-of-our-time/",
     "pdf": "https://research-portal.uu.nl/files/114338213/paper_PROBLEMS_01.pdf",
-    "keywords": []
+    "keywords": [],
+    "abstract": null
   },
   {
     "title": "Using AI to augment RPA: A conceptual framework",
@@ -1304,7 +1349,8 @@
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/using-ai-to-augment-rpa-a-conceptual-framework/",
     "pdf": null,
-    "keywords": []
+    "keywords": [],
+    "abstract": "Robotic Process Automation (RPA) has seen significant uptake in practice over the last years due to its ability to cut costs and rapidly connect legacy applications. However, organizations struggle to apply RPA to tasks with higher complexity. The use of Artificial Intelligence (AI) capabilities to augment RPA promises to overcome this limitation. Nevertheless, little detail is available on how these technologies can complement each other. Drawing on the theoretical links of the Task-Technology Fit model, we propose a set of AI capabilities that fit specific RPA tasks. Based on these fits, we propose a typology of use cases that AI enable in RPA. These results are derived from a literature study, nine case studies, and 15 expert interviews and validated through a case simulation and expert evaluation."
   },
   {
     "title": "How to Keep RPA Maintainable?",
@@ -1332,7 +1378,8 @@
       "RPA Center of Excellence",
       "RPA maintenance",
       "Robotic Process Automation"
-    ]
+    ],
+    "abstract": "Robotic Process Automation (RPA) is a term for software tools that operate on the user interface while trying to mimic a real user. Organizations are eager to adopt RPA, since the technology promises significant benefits such as cost savings. However, it is unclear how organizations should govern RPA. The burden of maintenance, in particular, can become high once an organization scales up its RPA efforts. To prevent or diminish high maintenance efforts, we propose in this paper 11 guidelines to establish low-maintenance RPA implementations. The guidelines are particularly applicable in those contexts where business units themselves oversee these implementations with a Center of Excellence in the background. The guidelines are derived from a literature study and four case studies; they are validated with experts using the Delphi method."
   },
   {
     "title": "Business Process Improvement Activities: Differences in Organizational Size, Culture, and Resources",
@@ -1356,7 +1403,8 @@
       "Business process improvement",
       "Context-awareness",
       "Workarounds"
-    ]
+    ],
+    "abstract": "Although there are many business process improvement (BPI) methods, organizations are struggling to apply them effectively. We answer to the call to focus more on the organizational context in BPI projects. We use workarounds – deviations from the prescribed way of using an information system – as a specific angle to approach BPI. In five healthcare organizations of different contextual types, we study workarounds and make recommendations for process improvements. Based on this explorative multiple-case study, we propose a set of contextual activities for each stage of a BPI project. Thereby, we shed light on the differences in tackling process improvements in organizations that differ in size, culture, and the availability of resources for BPI projects. We evaluate the completeness and expected adoption of the proposed contextual BPI activities by organizing two focus groups and conducting a survey."
   },
   {
     "title": "The Potential of Workarounds for Improving Processes",
@@ -1380,7 +1428,8 @@
       "workarounds",
       "information systems",
       "process improvement"
-    ]
+    ],
+    "abstract": "Several studies have hinted how the study of workarounds can help organizations to improve business processes. Through a systematic literature review of 70 articles that discuss workarounds by information systems users, we aim to unlock this potential. Based on a synthesis of recommendations mentioned in the reviewed studies, we describe five key activities that help organizations to deal with workarounds. We contribute to the IS literature by (1) providing an overview of concrete recommendations for managing workarounds and (2) offering a background for positioning new research activities on the subject. Organizations can apply these tools directly to turn their knowledge on workarounds into organizational improvement."
   },
   {
     "title": "Workarounds in retail work systems: prevent, redesign, adopt or ignore?",
@@ -1404,7 +1453,8 @@
     "keywords": [
       "workarounds",
       "information systems"
-    ]
+    ],
+    "abstract": "We conducted a case study in a Dutch supermarket chain in order to explore the emergence of workarounds in the retail environment. We studied what types of workarounds occur during the use of retail information systems and how manager can handle the identified workarounds once they become aware of them. The data was acquired qualitatively through interviews, observations, and document analysis, and validated by means of an online survey. After identifying and classifying 29 workarounds, a conceptual framework was developed that links workaround features to workaround categories and then to certain actions as response to them, namely prevent, redesign, adopt and ignore. This study contributes to existing research by categorizing workarounds in an unexplored domain and developing a conceptual framework of workaround categories and responses. We were able to identify patterns of relationships between types of workarounds, some of them similar to those found for other industries and others that appear to be specific to retail work systems, probably due to the inherent characteristics of retail work systems."
   },
   {
     "title": "Working around health information systems: The role of power",
@@ -1433,7 +1483,8 @@
       "power",
       "physicians",
       "nurses"
-    ]
+    ],
+    "abstract": "In this paper we analyze the role of power relations in the emergence of workarounds in Health Information Systems (HISs). Using an explorative multi-case study of five healthcare organizations in the Netherlands, we identify 51 workarounds as well as the underlying power relations that underlie them. We distinguish two main types of power that are important for the emergence of workarounds: (1) hierarchical differences between actors and (2) system restrictions. Our study unpacks the link between power and HISs, illustrating how actors respond to hierarchical differences and system restrictions to exert their ‘power to work around’."
   },
   {
     "title": "Working around health information systems: To accept or not to accept?",
@@ -1459,7 +1510,8 @@
       "Health Information Systems",
       "Information systems",
       "qualitative comparative analysis (QCA)"
-    ]
+    ],
+    "abstract": "Many healthcare processes are complex and variable, which makes it difficult to align them with rigid information systems. To cope with the resulting misalignment, caregivers invent alternatives, also known as workarounds. Workarounds with negative consequences, such as those that affect the safety of patients, need to be prevented. However, those with positive consequences may be adopted by the organisation. In this study, we set out to discover which workarounds are generally acceptable and which ones should be rejected. We have discovered ten different workarounds in a Dutch hospital and analysed these in terms of three characteristics associated with healthcare processes. We found that workarounds existing in knowledge-intensive processes and/or where a patient is involved are generally considered unacceptable. In contrast, workarounds in processes with a high degree of collaboration are likely to be accepted, provided that little knowledge is required and that no patient is involved. We contribute to the current literature on addressing workarounds in healthcare settings by providing insights into the factors influencing the organisational decision to accept or reject workarounds. In addition, we provide healthcare organisations with the tools to evaluate which workarounds are attractive to be established as proper work practices."
   },
   {
     "title": "Prevent, redesign, adopt or ignore: Improving healthcare using knowledge of workarounds",
@@ -1483,6 +1535,7 @@
       "Process Improvement",
       "Work System",
       "Workarounds"
-    ]
+    ],
+    "abstract": "The complex and variable nature of healthcare work makes alignment of health information systems to healthcare processes a challenge, causing the emergence of workarounds. We developed three artifacts to use knowledge of workarounds to address this misalignment and enable the improvement of work systems. (1) The Workaround Snapshot, in which the necessary social and technical information about a workaround is captured, such as motivation, impact on the work system, and possible actions that can be taken. (2) The Workaround Action Impact Matrix, which illustrates the possible decisions that can be made. (3) The Workaround Snapshot Approach, a socio-technical approach that uses the previous artifacts to enable continuous improvement. Following the principles of design science, the artifacts are demonstrated and evaluated through a case study at a Dutch hospital, where we identified and examined twelve workarounds. The approach has proven to enable the organization to make well-informed decisions on actions to be taken, which at times result in direct improvement of the work system. We contribute to existing research in moving past the identification and categorization of workarounds, towards utilizing explicit knowledge of workarounds to improve the work system."
   }
 ]
