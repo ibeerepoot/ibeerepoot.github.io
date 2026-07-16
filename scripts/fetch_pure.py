@@ -4,6 +4,7 @@ import sys
 import time
 import urllib.request
 import xmltodict
+from collections import Counter
 
 FEED = "https://research-portal.uu.nl/en/persons/iris-beerepoot/publications/?format=rss&page={}"
 UA = "Mozilla/5.0 (compatible; irisbeerepoot-site/1.0)"
@@ -53,6 +54,35 @@ def keywords_of(html):
         out.append(k)
     return out
 
+def name_key(name):
+    """Sleutel voor het clusteren van naamsvarianten: achternaam + eerste letter voornaam."""
+    parts = name.split()
+    last = parts[-1].lower()
+    first = parts[0].rstrip(".").lower()[:1] if parts else ""
+    return (last, first)
+
+
+def normalize_authors(pubs):
+    counts = {}
+    for p in pubs:
+        for a in p["authors"]:
+            a = re.sub(r"\s+", " ", a).strip()
+            counts.setdefault(name_key(a), Counter())[a] += 1
+
+    # Voorkeur: langste van de meest voorkomende varianten, zodat "Hajo A. Reijers"
+    # wint van "H.A. Reijers" bij gelijke frequentie
+    canonical = {}
+    for key, variants in counts.items():
+        best = max(variants.items(), key=lambda kv: (kv[1], len(kv[0])))
+        canonical[key] = best[0]
+
+    for p in pubs:
+        p["authors"] = [
+            canonical[name_key(re.sub(r"\s+", " ", a).strip())]
+            for a in p["authors"]
+        ]
+
+    return canonical
 
 def classification_of(description):
     """Haal Pure's type-classificatie uit de rendering-HTML van de RSS-item."""
@@ -150,6 +180,9 @@ def main():
     kw = Counter(k.lower() for p in pubs for k in p["keywords"])
     types = Counter(p["type"] for p in pubs)
 
+    canonical = normalize_authors(pubs)
+    pubs.sort(key=lambda p: (-p["year"], p["title"]))
+
     print(f"\n{len(pubs)} weggeschreven")
     print(f"{sum(1 for p in pubs if p['pdf'])} met PDF")
     with_abstract = sum(1 for p in pubs if p["abstract"])
@@ -157,6 +190,9 @@ def main():
     if with_abstract < len(pubs) * 0.5:
         print("  WAARSCHUWING: weinig abstracts gevonden, check of Pure's HTML is veranderd")
     print(f"{len(kw)} unieke keywords\n")
+    print("\nNaamsvarianten samengevoegd:")
+    for key, name in sorted(canonical.items()):
+        print(f"  {name}")
 
     print("Types:")
     for t, n in types.most_common():
