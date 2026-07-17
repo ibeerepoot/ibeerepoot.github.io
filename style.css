@@ -27,10 +27,14 @@ a:hover { color: #ffd94d; }
 ::selection { background: rgba(255, 205, 0, 0.28); }
 input::placeholder { color: var(--dim); }
 
+/* Puur decoratief, dus achter alles en nooit klikbaar. Met z-index 0 lag deze
+   laag op mobiel over de hele pagina: .shell is daar position:static en z-index
+   werkt niet op een niet-gepositioneerd element, dus ving de gloed alle clicks. */
 .backdrop {
   position: fixed;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
+  pointer-events: none;
   background: radial-gradient(1300px 720px at 20% -12%, rgba(255, 205, 0, 0.07), transparent 60%);
 }
 
