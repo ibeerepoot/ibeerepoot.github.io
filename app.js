@@ -28,7 +28,7 @@
 
   class App {
     constructor(pubs) {
-      this.state = { q: '', kw: null, author: null, paperSel: null, mode: 'topics' };
+      this.state = { q: '', kw: null, author: null, paperSel: null, mode: 'topics', absOpen: false };
       this.setup(pubs);
     }
 
@@ -43,8 +43,9 @@
         _cat: TYPE[p.type] || 'Work',
       }));
       all.forEach(p => {
-        p._search = [p.title, p.venue, p.authors.join(' '), p.year, (p.keywords || []).join(' ')]
-          .join(' ').toLowerCase();
+        // Abstract hoort hierbij: het ontwerp kende het veld niet, de site wel.
+        p._search = [p.title, p.venue, p.authors.join(' '), p.year,
+          (p.keywords || []).join(' '), p.abstract].join(' ').toLowerCase();
       });
       this.all = all;
 
@@ -97,7 +98,7 @@
 
     setKw = k => this.setState({ kw: this.state.kw === k ? null : k, author: null });
     setAuthor = a => this.setState({ author: this.state.author === a ? null : a, kw: null });
-    setPaper = id => this.setState({ paperSel: this.state.paperSel === id ? null : id });
+    setPaper = id => this.setState({ paperSel: this.state.paperSel === id ? null : id, absOpen: false });
     setMode = m => this.setState({ mode: m });
     onSearch = e => this.setState({ q: e.target.value.trim().toLowerCase() });
     onReset = () => {
@@ -683,6 +684,18 @@
       if (p.venue) {
         host.appendChild(el('div', 'rail-label', 'Published in'));
         host.appendChild(el('div', 'rail-venue', p.venue));
+      }
+
+      // Niet elke publicatie heeft er een (prefaces, proceedings): dan ook geen kopje.
+      if (p.abstract) {
+        host.appendChild(el('div', 'rail-label', 'Abstract'));
+        const box = el('p', 'rail-abstract' + (this.state.absOpen ? '' : ' clamped'), p.abstract);
+        host.appendChild(box);
+        const more = el('button', 'rail-more', this.state.absOpen ? 'Show less' : 'Show more');
+        more.addEventListener('click', () => this.setState({ absOpen: !this.state.absOpen }));
+        host.appendChild(more);
+        // Meet of er echt iets afgekapt wordt; anders is de knop zinloos.
+        if (!this.state.absOpen && box.scrollHeight <= box.clientHeight + 2) more.hidden = true;
       }
 
       if ((p.keywords || []).length) {

@@ -308,6 +308,31 @@ h1 {
 .author.me { color: #fff; font-weight: 600; cursor: default; }
 
 .rail-venue { font-style: italic; font-size: 0.9rem; color: #9a9da6; margin-bottom: 16px; }
+
+/* Een abstract is hier mediaan ~1075 tekens, oftewel zo'n 20 regels: onafgekapt
+   duwt dat Read/PDF/Pure buiten beeld. */
+.rail-abstract { margin: 0 0 6px; font-size: 0.86rem; line-height: 1.6; color: var(--soft); }
+
+.rail-abstract.clamped {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rail-more {
+  font: inherit;
+  font-size: 0.78rem;
+  padding: 0;
+  margin: 0 0 16px;
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.rail-more:hover { text-decoration: underline; }
 .rail-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
 
 .chip {
