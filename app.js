@@ -637,23 +637,34 @@
       });
     }
 
-    kwChip(k) {
+    kwChip(k, mobile) {
       const low = k.toLowerCase(), on = this.state.kw === low;
       const b = el('button', 'chip' + (on ? ' on' : ''), k);
-      b.addEventListener('click', () => this.setKw(low));
+      if (mobile) {
+        // In het detailvenster is de telling de connectie: "dit onderwerp op N papers".
+        const n = this.kwCounts[low];
+        if (n > 1) { b.appendChild(document.createTextNode(' ')); b.appendChild(el('span', 'chip-n', n)); }
+        b.addEventListener('click', () => this.onTopicTap(low));
+      } else {
+        b.addEventListener('click', () => this.setKw(low));
+      }
       return b;
     }
 
+    // Vanuit het mobiele detailvenster: filter de lijst en sluit het venster, zodat
+    // je meteen het verwante werk ziet.
+    onTopicTap = low => this.setState({
+      kw: this.state.kw === low ? null : low, author: null, mode: 'topics', paperSel: null, absOpen: false,
+    });
+    onAuthorTap = a => this.setState({
+      author: this.state.author === a ? null : a, kw: null, mode: 'collab', paperSel: null, absOpen: false,
+    });
+
     // ---------------- DETAIL RAIL ----------------
-    renderRail() {
-      const host = document.getElementById('rail');
-      host.textContent = '';
-      const { paperSel } = this.state;
-      if (paperSel == null) { host.hidden = true; return; }
-      host.hidden = false;
-
-      const p = this.all[paperSel];
-
+    // Bouwt de detailinhoud in `host`. Gedeeld door de desktop-rail en het mobiele
+    // bottom sheet. Op mobiel (geen kaart) zijn auteurs en onderwerpen de connecties:
+    // erop tikken filtert de lijst en sluit het venster.
+    fillDetail(host, p, mobile) {
       const head = el('div', 'rail-head');
       const headText = el('div', 'rail-head-text');
       headText.appendChild(el('div', 'rail-kicker', this.typeLabel(p) + ' · ' + p.year));
@@ -665,18 +676,26 @@
       head.appendChild(close);
       host.appendChild(head);
 
-      host.appendChild(el('div', 'rail-label', 'Authors — click to trace'));
+      host.appendChild(el('div', 'rail-label', mobile ? 'Authors — tap for shared work' : 'Authors — click to trace'));
       const authors = el('div', 'rail-authors');
       p.authors.forEach((a, i) => {
         const isIris = /beerepoot/i.test(a);
         const on = this.state.author === a;
-        const b = el('button', 'author' + (isIris ? ' me' : '') + (on ? ' on' : ''), a);
-        if (isIris) b.disabled = true;
-        else {
-          b.title = 'Filter by ' + this.surname(a);
-          b.addEventListener('click', () => this.setAuthor(a));
+        const recurring = (this.authorCounts[a] || 0) >= 2;
+        // Op desktop is elke co-auteur klikbaar (spoor volgen). Op mobiel alleen wie
+        // vaker voorkomt: filteren op een auteur met één paper toont enkel dat paper.
+        const tappable = !isIris && (!mobile || recurring);
+        let node;
+        if (isIris) { node = el('button', 'author me', a); node.disabled = true; }
+        else if (tappable) {
+          node = el('button', 'author' + (on ? ' on' : ''), a);
+          node.title = 'Filter by ' + this.surname(a);
+          node.addEventListener('click', () => (mobile ? this.onAuthorTap(a) : this.setAuthor(a)));
+          if (mobile) { node.appendChild(document.createTextNode(' ')); node.appendChild(el('span', 'author-n', this.authorCounts[a])); }
+        } else {
+          node = el('span', 'author-plain', a);
         }
-        authors.appendChild(b);
+        authors.appendChild(node);
         if (i < p.authors.length - 1) authors.appendChild(document.createTextNode(', '));
       });
       host.appendChild(authors);
@@ -699,9 +718,9 @@
       }
 
       if ((p.keywords || []).length) {
-        host.appendChild(el('div', 'rail-label', 'Topics'));
+        host.appendChild(el('div', 'rail-label', mobile ? 'Topics — tap to explore' : 'Topics'));
         const chips = el('div', 'rail-chips');
-        p.keywords.forEach(k => chips.appendChild(this.kwChip(k)));
+        p.keywords.forEach(k => chips.appendChild(this.kwChip(k, mobile)));
         host.appendChild(chips);
       }
 
@@ -720,6 +739,28 @@
         });
         host.appendChild(row);
       }
+    }
+
+    renderRail() {
+      const host = document.getElementById('rail');
+      host.textContent = '';
+      if (this.state.paperSel == null) { host.hidden = true; return; }
+      host.hidden = false;
+      this.fillDetail(host, this.all[this.state.paperSel], false);
+    }
+
+    // Mobiel tegenhanger van de rail: een bottom sheet. De kaart bestaat hier niet,
+    // dus dit is de enige plek waar abstract, links en connecties samenkomen.
+    renderSheet() {
+      const sheet = document.getElementById('sheet');
+      const body = document.getElementById('sheet-body');
+      const open = MOBILE.matches && this.state.paperSel != null;
+      body.textContent = '';
+      sheet.hidden = !open;
+      document.body.classList.toggle('sheet-open', open);
+      if (!open) return;
+      this.fillDetail(body, this.all[this.state.paperSel], true);
+      body.scrollTop = 0;
     }
 
     // ---------------- TEXT LIST ----------------
@@ -767,6 +808,15 @@
             li.appendChild(chips);
           }
 
+          // Op mobiel opent een tik op de rij het detailvenster in plaats van meteen
+          // naar de DOI te springen; chips blijven filteren, de knoppen in het venster
+          // verzorgen het navigeren.
+          li.addEventListener('click', e => {
+            if (!MOBILE.matches || e.target.closest('.chip')) return;
+            e.preventDefault();
+            this.setState({ paperSel: p._id, absOpen: false });
+          });
+
           ul.appendChild(li);
         });
         host.appendChild(ul);
@@ -777,6 +827,7 @@
       this.renderModeToggle();
       this.renderPills();
       this.renderRail();
+      this.renderSheet();
       this.renderList();
 
       // Was componentDidUpdate in het ontwerp.
@@ -793,6 +844,7 @@
     mount() {
       document.getElementById('search').addEventListener('input', this.onSearch);
       document.getElementById('reset').addEventListener('click', this.onReset);
+      document.getElementById('scrim').addEventListener('click', () => this.setState({ paperSel: null }));
 
       this.tryBind = () => {
         if (MOBILE.matches) return false;   // geen canvas op mobiel
@@ -811,8 +863,8 @@
       window.addEventListener('load', this.tryBind);
       requestAnimationFrame(this.tryBind);
 
-      // Bij het passeren van de breakpoint moet de kaart alsnog opgebouwd worden.
-      MOBILE.addEventListener('change', () => this.tryBind());
+      // Bij het passeren van de breakpoint: kaart opbouwen en rail/sheet omwisselen.
+      MOBILE.addEventListener('change', () => { this.tryBind(); this.render(); });
     }
   }
 

@@ -350,6 +350,10 @@ h1 {
 .chip.on { background: var(--accent); color: #000; border-color: var(--accent); }
 .chip.on:hover { color: #000; }
 
+/* Aantalsbadges in het detailvenster: de connectie is de telling. */
+.author-n, .chip-n { opacity: 0.55; font-variant-numeric: tabular-nums; }
+.author-plain { color: var(--soft); }
+
 .rail-links { display: flex; gap: 9px; flex-wrap: wrap; }
 
 .btn {
@@ -367,6 +371,38 @@ h1 {
 .btn:hover { color: #fff; }
 .btn.primary { background: var(--accent); color: #0b0c10; border: none; }
 .btn.primary:hover { color: #0b0c10; }
+
+/* ---------------- mobile detail sheet ----------------
+   Alleen op mobiel: op desktop doet de rail dit werk. */
+
+#sheet { display: none; }
+
+#scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(4, 5, 7, 0.6);
+  animation: scrimIn .2s ease;
+}
+
+#sheet-panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 41;
+  max-height: 88vh;
+  overflow: auto;
+  background: #0e1014;
+  border-top: 1px solid var(--line);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -24px 60px -30px rgba(0, 0, 0, 0.9);
+  padding: 20px 18px calc(20px + env(safe-area-inset-bottom));
+  animation: sheetUp .26s cubic-bezier(.22, .61, .36, 1);
+}
+
+@keyframes scrimIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes sheetUp { from { transform: translateY(100%); } to { transform: none; } }
 
 /* ---------------- text list ----------------
    Desktop: uit beeld maar in de a11y-tree. Mobiel: dit is de site. */
@@ -410,6 +446,12 @@ h1 {
   .backdrop { position: fixed; }
 
   .shell { position: static; display: block; }
+
+  #sheet:not([hidden]) { display: block; }
+  /* Achtergrond niet mee laten scrollen terwijl het venster open is. */
+  body.sheet-open { overflow: hidden; }
+
+  .pubs li { cursor: pointer; }
 
   header { flex-wrap: wrap; gap: 0.9rem; padding: 1.2rem 1.1rem 0.8rem; }
   .ident { flex-direction: column; align-items: flex-start; gap: 0.2rem; }
