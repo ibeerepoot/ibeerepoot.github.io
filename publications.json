@@ -7,7 +7,7 @@
       "Henrik Leopold",
       "Kiran Busch",
       "Iris Beerepoot",
-      "Jan Martijn E.M. Van Der Werf",
+      "Jan Martijn van der Werf",
       "Hajo A. Reijers"
     ],
     "year": 2026,
@@ -37,9 +37,9 @@
     "authors": [
       "N. Andrienko",
       "G. Andrienko",
-      "I. Beerepoot",
+      "Iris Beerepoot",
       "L. Cibulski",
-      "C. Di Ciccio",
+      "Claudio Di Ciccio",
       "G. Meroni",
       "C. Turkay",
       "T. von Landesberger"
@@ -148,10 +148,10 @@
       "Vinicius Stein Dani",
       "Marcus Dees",
       "Henrik Leopold",
-      "Kiran  Busch",
+      "Kiran Busch",
       "Iris Beerepoot",
       "Jan Martijn van der Werf",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2025,
     "date": "2025/02/14",
@@ -198,7 +198,7 @@
   {
     "title": "Mapping Uncharted Territory: Exploring the (Mis)Match Between Event Data and Reality",
     "authors": [
-      "Adela del Rio Ortega",
+      "Adela del Río Ortega",
       "Iris Beerepoot",
       "Han van der Aa",
       "Joerg Evermann"
@@ -279,7 +279,7 @@
       "Xixi Lu",
       "Teus Kappen",
       "Saskia Haitjema",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2025,
     "date": "2025",
@@ -360,7 +360,7 @@
       "Sjaak Brinkkemper",
       "Elke Huntink",
       "Berfin Duman",
-      "Hajo A Reijers",
+      "Hajo A. Reijers",
       "Nienke Bleijenberg"
     ],
     "year": 2025,
@@ -526,9 +526,9 @@
     "authors": [
       "Vinicius Stein Dani",
       "Henrik Leopold",
-      "Jan Martijn E. M. van der Werf",
+      "Jan Martijn van der Werf",
       "Iris Beerepoot",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2024,
     "date": "2024/06/03",
@@ -556,7 +556,7 @@
       "Henrik Leopold",
       "Jan Martijn van der Werf",
       "Iris Beerepoot",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2024,
     "date": "2024",
@@ -616,7 +616,7 @@
       "Wouter van der Waal",
       "Inge van de Weerd",
       "Iris Beerepoot",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2024,
     "date": "2024/12/16",
@@ -757,8 +757,8 @@
       "Suhwan Lee",
       "Xixi Lu",
       "Sietse Overbeek",
-      "Inge Van De Weerd",
-      "Jan Martijn Van Der Werf",
+      "Inge van de Weerd",
+      "Jan Martijn van der Werf",
       "Hajo A. Reijers"
     ],
     "year": 2023,
@@ -813,7 +813,7 @@
     "authors": [
       "Iris Beerepoot",
       "Niels Martin",
-      "Jelmer Koorn"
+      "Jelmer J. Koorn"
     ],
     "year": 2023,
     "date": "2023/01",
@@ -965,7 +965,7 @@
       "Stijn Kas",
       "Sebastiaan Wiewel",
       "Angelique Koopman",
-      "Hajo Reijers"
+      "Hajo A. Reijers"
     ],
     "year": 2022,
     "date": "2022",
@@ -1054,7 +1054,7 @@
       "Marco Pegoraro",
       "Simon K Poon",
       "Luise Pufahl",
-      "Hajo A Reijers",
+      "Hajo A. Reijers",
       "Simon Remy",
       "Stefanie Rinderle-Ma",
       "Lucia Sacchi",
@@ -1127,8 +1127,8 @@
       "Jan Martijn van der Werf",
       "Xixi Lu",
       "Iris Beerepoot",
-      "Jelmer Koorn",
-      "Hajo Reijers"
+      "Jelmer J. Koorn",
+      "Hajo A. Reijers"
     ],
     "year": 2022,
     "date": "2022/01/25",
@@ -1151,7 +1151,7 @@
   {
     "title": "Workarounds: The Path From Detection to Improvement",
     "authors": [
-      "Iris Maria Beerepoot"
+      "Iris Beerepoot"
     ],
     "year": 2022,
     "date": "2022/05/11",
@@ -1291,8 +1291,8 @@
     "authors": [
       "Iris Beerepoot",
       "Xixi Lu",
-      "Inge Van De Weerd",
-      "Hajo Alexander Reijers"
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
     ],
     "year": 2021,
     "date": "2021/01/05",
@@ -1434,7 +1434,7 @@
   {
     "title": "Workarounds in retail work systems: prevent, redesign, adopt or ignore?",
     "authors": [
-      "Inge Van de Weerd",
+      "Inge van de Weerd",
       "Pien Vollers",
       "Iris Beerepoot",
       "Marcelo Fantinato"
@@ -1459,12 +1459,12 @@
   {
     "title": "Working around health information systems: The role of power",
     "authors": [
-      "I.M. Beerepoot",
-      "J.J. Koorn",
-      "G.C. van de Weerd",
+      "Iris Beerepoot",
+      "Jelmer J. Koorn",
+      "Inge van de Weerd",
       "Bart van den Hoof",
-      "H. Leopold",
-      "H.A. Reijers"
+      "Henrik Leopold",
+      "Hajo A. Reijers"
     ],
     "year": 2019,
     "date": "2019",
@@ -1489,10 +1489,10 @@
   {
     "title": "Working around health information systems: To accept or not to accept?",
     "authors": [
-      "I.M. Beerepoot",
+      "Iris Beerepoot",
       "Ayoub Ouali",
-      "G.C. van de Weerd",
-      "H.A. Reijers"
+      "Inge van de Weerd",
+      "Hajo A. Reijers"
     ],
     "year": 2019,
     "date": "2019/05/01",
@@ -1517,7 +1517,7 @@
     "title": "Prevent, redesign, adopt or ignore: Improving healthcare using knowledge of workarounds",
     "authors": [
       "Iris Beerepoot",
-      "Inge Van De Weerd"
+      "Inge van de Weerd"
     ],
     "year": 2018,
     "date": "2018/01/01",

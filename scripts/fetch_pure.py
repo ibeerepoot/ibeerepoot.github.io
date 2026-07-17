@@ -2,6 +2,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 import xmltodict
 from collections import Counter
@@ -54,6 +55,21 @@ def keywords_of(html):
         out.append(k)
     return out
 
+# Pure publiceert sommige auteurs onder formele initialen, terwijl ze elders hun
+# roepnaam gebruiken. Die vallen buiten name_key (de eerste initiaal verschilt),
+# dus ze staan hier expliciet. Alleen toevoegen wat handmatig geverifieerd is:
+# ruimer clusteren zou verschillende personen met dezelfde achternaam samenvoegen.
+ALIASES = {
+    "G.C. van de Weerd": "Inge van de Weerd",
+}
+
+
+def clean(name):
+    """Witruimte normaliseren en bekende roepnaam-aliassen toepassen."""
+    name = re.sub(r"\s+", " ", name).strip()
+    return ALIASES.get(name, name)
+
+
 def name_key(name):
     """Sleutel voor het clusteren van naamsvarianten: achternaam + eerste letter voornaam."""
     parts = name.split()
@@ -62,25 +78,35 @@ def name_key(name):
     return (last, first)
 
 
+def fold(name):
+    """Naam zonder diakrieten, om 'Río' en 'Rio' als dezelfde spelling te herkennen."""
+    return unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+
+
+def accents(name):
+    return sum(1 for c in name if ord(c) > 127)
+
+
 def normalize_authors(pubs):
     counts = {}
     for p in pubs:
         for a in p["authors"]:
-            a = re.sub(r"\s+", " ", a).strip()
+            a = clean(a)
             counts.setdefault(name_key(a), Counter())[a] += 1
 
     # Voorkeur: langste van de meest voorkomende varianten, zodat "Hajo A. Reijers"
     # wint van "H.A. Reijers" bij gelijke frequentie
     canonical = {}
     for key, variants in counts.items():
-        best = max(variants.items(), key=lambda kv: (kv[1], len(kv[0])))
-        canonical[key] = best[0]
+        best = max(variants.items(), key=lambda kv: (kv[1], len(kv[0])))[0]
+        # Pure levert soms een variant zonder diakrieten. Verschilt een spelling
+        # alleen daarin, dan is de geaccentueerde vorm de juiste naam -- ook als
+        # de uitgeklede vaker voorkomt.
+        same_name = [v for v in variants if fold(v) == fold(best)]
+        canonical[key] = max(same_name, key=accents)
 
     for p in pubs:
-        p["authors"] = [
-            canonical[name_key(re.sub(r"\s+", " ", a).strip())]
-            for a in p["authors"]
-        ]
+        p["authors"] = [canonical[name_key(clean(a))] for a in p["authors"]]
 
     return canonical
 
@@ -167,21 +193,18 @@ def main():
         p = pubs[-1]
         print(f"  {i:>3}  {p['year']}  {len(p['keywords'])}kw  {(p['type'] or '?')[:28]:<28}  {p['title'][:40]}")
 
-    pubs.sort(key=lambda p: (-p["year"], p["title"]))
-
     if not pubs:
         print("Niets opgehaald, niets weggeschreven.")
         sys.exit(1)
 
+    canonical = normalize_authors(pubs)
+    pubs.sort(key=lambda p: (-p["year"], p["title"]))
+
     with open("publications.json", "w", encoding="utf-8") as f:
         json.dump(pubs, f, indent=2, ensure_ascii=False)
 
-    from collections import Counter
     kw = Counter(k.lower() for p in pubs for k in p["keywords"])
     types = Counter(p["type"] for p in pubs)
-
-    canonical = normalize_authors(pubs)
-    pubs.sort(key=lambda p: (-p["year"], p["title"]))
 
     print(f"\n{len(pubs)} weggeschreven")
     print(f"{sum(1 for p in pubs if p['pdf'])} met PDF")
