@@ -4,147 +4,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Iris Beerepoot</title>
+  <meta name="description" content="Iris Beerepoot — Assistant Professor of Process Science at Utrecht University. Publications on process mining, workarounds and information systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <header>
-    <h1>Iris Beerepoot</h1>
-    <p class="tagline">Assistant Professor, Process Science, Utrecht University</p>
-  </header>
+  <div class="backdrop"></div>
 
-  <main>
-    <section id="about">
-      <p>Jack of all trades related to Process Science, master of none. 
-        Knows one or two things about workarounds and process mining, but 
-        not the hardcore technical stuff. Very interested in the type of 
-        work that can and cannot be recorded in information systems, and 
-        what this means for analysis. </p>
-    </section>
+  <div class="shell">
+    <header>
+      <div class="ident">
+        <h1>Iris Beerepoot</h1>
+        <span class="tagline">Process Science &mdash; the work, mapped</span>
+      </div>
+      <a class="affil" href="https://www.uu.nl/staff/IMBeerepoot">
+        <img src="assets/uu-logo.png" alt="Utrecht University" width="480" height="189">
+      </a>
+    </header>
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <div id="topics"></div>
-      <input type="search" id="filter" placeholder="Search titles, authors, venues, keywords…" autocomplete="off">
-      <p id="count"></p>
-      <div id="pub-list">Loading…</div>
-    </section>
+    <div class="controls">
+      <div id="mode" class="mode-toggle" role="group" aria-label="Filter by"></div>
+      <div id="pills" class="pill-strip"></div>
+      <input type="search" id="search" placeholder="Search titles, authors, venues&hellip;"
+             autocomplete="off" aria-label="Search publications">
+      <button id="reset" type="button">reset</button>
+    </div>
+
+    <div class="map-area">
+      <div id="graph-scroll">
+        <canvas id="viz-map" aria-hidden="true"></canvas>
+      </div>
+      <p class="hint">Scroll sideways through the years &middot; lines link papers that share a topic &middot; pick a collaborator to trace their path</p>
+      <aside id="rail" hidden></aside>
+    </div>
+  </div>
+
+  <!-- Op mobiel is dit de site. Op desktop staat het buiten beeld, maar wel in de
+       DOM: het canvas hierboven is onleesbaar voor screenreaders en crawlers. -->
+  <main id="list-view">
+    <h2>Publications</h2>
+    <p id="count"></p>
+    <div id="pub-list">Loading&hellip;</div>
+    <noscript>
+      <p>This site renders its publication list with JavaScript. The full, always
+         up-to-date list is also available on
+         <a href="https://research-portal.uu.nl/en/persons/iris-beerepoot/publications/">Utrecht University's research portal</a>.</p>
+    </noscript>
   </main>
-
-  <script>
-    const MIN_TOPIC = 3;   // keyword verschijnt als knop vanaf dit aantal
-
-    const esc = s => String(s ?? '').replace(/[&<>"]/g, c =>
-      ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-
-    let all = [], active = null;
-
-    const TYPE_LABEL = {
-      'Contribution to journal': 'Journal',
-      'Chapter in Book/Report/Conference proceeding': 'Conference',
-      'Contribution to conference': 'Conference',
-      'Working paper': 'Preprint',
-      'Book/Report': 'Report',
-      'Thesis': 'Thesis',
-    };
-
-    function render(pubs) {
-      document.getElementById('count').textContent = pubs.length === all.length
-        ? `${all.length} publications`
-        : `${pubs.length} of ${all.length} publications`;
-
-      const list = document.getElementById('pub-list');
-      if (!pubs.length) {
-        list.innerHTML = '<p class="empty">No matches.</p>';
-        return;
-      }
-
-      const byYear = {};
-      pubs.forEach(p => (byYear[p.year] ??= []).push(p));
-
-      list.innerHTML = Object.keys(byYear).sort((a, b) => b - a).map(year => `
-        <h3>${year}</h3>
-        <ul>
-          ${byYear[year].map(p => `
-            <li>
-              <span class="title">
-                <a href="${esc(p.doi ? 'https://doi.org/' + p.doi : p.pure_url)}">${esc(p.title)}</a>
-              </span>
-              <span class="meta">
-                ${esc(p.authors.join(', '))}.
-                ${p.venue ? `<em>${esc(p.venue)}</em>.` : ''}
-                ${p.type ? `<span class="type">${esc(TYPE_LABEL[p.type] || p.type)}</span>` : ''}
-              </span>
-              <span class="links">
-                ${p.pdf ? `<a href="${esc(p.pdf)}">PDF</a>` : ''}
-                <a href="${esc(p.pure_url)}">Pure</a>
-                ${(p.keywords || []).map(k =>
-                  `<button class="tag" data-kw="${esc(k.toLowerCase())}">${esc(k)}</button>`).join('')}
-              </span>
-            </li>`).join('')}
-        </ul>`).join('');
-    }
-
-    function apply() {
-      const q = document.getElementById('filter').value.trim().toLowerCase();
-      let out = all;
-
-      if (active) out = out.filter(p => (p.keywords || []).some(k => k.toLowerCase() === active));
-      if (q) {
-        const terms = q.split(/\s+/);
-        out = out.filter(p => terms.every(t => p._search.includes(t)));
-      }
-      render(out);
-    }
-
-    function setTopic(kw) {
-      active = active === kw ? null : kw;
-      document.querySelectorAll('#topics button').forEach(b =>
-        b.classList.toggle('on', b.dataset.kw === active));
-      apply();
-    }
-
-    fetch('publications.json')
-      .then(r => r.json())
-      .then(pubs => {
-        all = pubs;
-        all.forEach(p => p._search = [
-          p.title, p.venue, p.authors.join(' '), p.year,
-          (p.keywords || []).join(' '), p.abstract
-        ].join(' ').toLowerCase());
-
-        // Keywords tellen, case-insensitief, met de mooiste spelling als label
-        const counts = {}, labels = {};
-        all.forEach(p => (p.keywords || []).forEach(k => {
-          const low = k.toLowerCase();
-          counts[low] = (counts[low] || 0) + 1;
-          if (!labels[low] || k[0] === k[0].toUpperCase()) labels[low] = k;
-        }));
-
-        document.getElementById('topics').innerHTML = Object.entries(counts)
-          .filter(([, n]) => n >= MIN_TOPIC)
-          .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-          .map(([k, n]) =>
-            `<button data-kw="${esc(k)}">${esc(labels[k])} <span>${n}</span></button>`).join('');
-
-        document.getElementById('topics').addEventListener('click', e => {
-          const b = e.target.closest('button');
-          if (b) setTopic(b.dataset.kw);
-        });
-
-        document.getElementById('pub-list').addEventListener('click', e => {
-          const b = e.target.closest('.tag');
-          if (b) {
-            setTopic(b.dataset.kw);
-            document.getElementById('topics').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          }
-        });
-
-        document.getElementById('filter').addEventListener('input', apply);
-        render(all);
-      })
-      .catch(() => {
-        document.getElementById('pub-list').textContent = 'Publication list unavailable.';
-      });
-  </script>
 </body>
 </html>
