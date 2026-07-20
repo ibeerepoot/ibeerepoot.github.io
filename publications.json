@@ -168,6 +168,32 @@
     "abstract": "Process mining is a discipline that enables organizations to discover and analyze their work processes. A prerequisite for conducting a process mining initiative is the so-called event log, which is not always readily available. In such cases, extracting an event log involves various time-consuming tasks, such as creating tailor-made structured query language (SQL) scripts to extract an event log from a relational database. With this work, we investigate the use of large language models (LLMs) to support event log extraction, particularly by leveraging LLMs ability to produce SQL scripts. In this paper, we report on how effectively an LLM can assist with event log extraction for process mining. Despite the intrinsic non-deterministic nature of LLMs, our results show the potential of future LLM-assisted event log extraction tools, especially when domain and data knowledge are available. The implementation of such tools can increase access to event log extraction to a broader range of users within an organization by reducing the reliance on specialized technical skills for producing relational database query scripts and minimizing manual effort."
   },
   {
+    "title": "ExOAR: Expert-Guided Object and Activity Recognition from Textual Data",
+    "authors": [
+      "Iris Beerepoot",
+      "Vinicius Stein Dani",
+      "Xixi Lu"
+    ],
+    "year": 2025,
+    "date": "2025/12/03",
+    "venue": "",
+    "type": "Working paper",
+    "classification": [
+      "Academic"
+    ],
+    "doi": "10.48550/arXiv.2512.03790",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/exoar-expert-guided-object-and-activity-recognition-from-textual-/",
+    "pdf": "https://research-portal.uu.nl/files/295346626/2512.03790v1_1_.pdf",
+    "keywords": [
+      "Object-centric process mining",
+      "object and activity recognition",
+      "large language models",
+      "expert in the loop"
+    ],
+    "abstract": "Object-centric process mining requires structured data, but extracting it from unstructured text remains a challenge. We introduce ExOAR (Expert-Guided Object and Activity Recognition), an interactive method that combines large language models (LLMs) with human verification to identify objects and activities from textual data. ExOAR guides users through consecutive stages in which an LLM generates candidate object types, activities, and object instances based on contextual input, such as a user's profession, and textual data. Users review and refine these suggestions before proceeding to the next stage. Implemented as a practical tool, ExOAR is initially validated through a demonstration and then evaluated with real-world Active Window Tracking data from five users. Our results show that ExOAR can effectively bridge the gap between unstructured textual data and the structured log with clear semantics needed for object-centric process analysis, while it maintains flexibility and human oversight."
+  },
+  {
     "title": "Identifying and Detecting Patterns in Work Organization with Active Window Tracking",
     "authors": [
       "Mari A.J. Braakman",
@@ -194,6 +220,31 @@
       "Work Organization Patterns"
     ],
     "abstract": "Collecting data on the organization of work by individual employees has become increasingly feasible, with time-tracking applications offering valuable insights into how individuals structure their tasks and projects. Active Window Tracking (AWT) is one such method that captures data from computers on the systems the individual used and windows that were active at a certain point in time. The use of AWT data provides an opportunity to enhance research approaches by offering objective, data-driven insights into work behavior across multiple systems. In semi-structured interviews, we identified four work organization patterns within the context of academic staff: Bundling, Starting, Ending, and Dividing. We show how the work organization patterns can be detected from AWT data of three individuals covering multiple months. Using examples from the data, we demonstrate how work organization patterns can provide insights into work behavior. The findings highlight the potential of AWT data, which can be leveraged to inform strategies to optimize performance and employee well-being."
+  },
+  {
+    "title": "Integrating Wearable Data into Process Mining: Event, Case and Activity Enrichment",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Xixi Lu",
+      "Iris Beerepoot"
+    ],
+    "year": 2025,
+    "date": "2025/12/04",
+    "venue": "",
+    "type": "Working paper",
+    "classification": [
+      "Academic"
+    ],
+    "doi": "10.48550/arXiv.2512.05203",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/integrating-wearable-data-into-process-mining-event-case-and-acti/",
+    "pdf": "https://research-portal.uu.nl/files/295347008/2512.05203v1_1_.pdf",
+    "keywords": [
+      "Event log enrichment",
+      "wearable devices",
+      "well-being"
+    ],
+    "abstract": "In this short paper, we explore the enrichment of event logs with data from wearable devices. We discuss three approaches: (1) treating wearable data as event attributes, linking them directly to individual events, (2) treating wearable data as case attributes, using aggregated day-level scores, and (3) introducing new events derived from wearable data, such as sleep episodes or physical activities. To illustrate these approaches, we use real-world data from one person, matching health data from a smartwatch with events extracted from a digital calendar application. Finally, we discuss the technical and conceptual challenges involved in integrating wearable data into process mining for personal productivity and well-being."
   },
   {
     "title": "Mapping Uncharted Territory: Exploring the (Mis)Match Between Event Data and Reality",
@@ -383,6 +434,33 @@
       "Process mining"
     ],
     "abstract": "OBJECTIVE: To assess the feasibility of using a large language model (LLM) to generate structured event logs from conversational data in home-based nursing care, with the goal of reducing the documentation burden and enabling process analysis. METHODS: We conducted an exploratory study involving 27 audio-recorded home care visits between district nurses and patients. These recordings were transcribed and used as input for a Generative Pre-Trained Transformer (GPT) to identify nursing interventions and construct event logs, using the standardised Nursing Interventions Classification (NIC) system. We applied and evaluated different prompts through an iterative, interdisciplinary process involving computer scientists and nurse researchers. RESULTS: GPT demonstrated reasonable ability to extract nursing interventions from conversational transcripts, especially when activities were discussed explicitly and temporally aligned. Challenges emerged when information was implicit, ambiguous, or not captured in the dialogue. We propose five guidelines for using LLMs in this context, addressing data source limitations, activity label selection, confidence calibration, hallucination handling, and stakeholder-specific output needs. These guidelines provide lessons that extend beyond home care to other domains where conversational data must be translated into structured process insights. CONCLUSION: LLMs show promise for transforming informal clinical dialogue into structured representations of care. While expert oversight and tailored prompts remain essential, future model improvements may enhance reliability. Still, applications in real-world healthcare contexts must be handled with care to ensure accuracy, transparency, and stakeholder trust."
+  },
+  {
+    "title": "Understanding Distributed Cooperative Work through Data Traces",
+    "authors": [
+      "Iris Beerepoot",
+      "Manuel Resinas",
+      "Adela del-Río-Ortega",
+      "Hajo A. Reijers",
+      "Pernille Bjørn"
+    ],
+    "year": 2025,
+    "date": "2025",
+    "venue": "Proceedings of the 23rd EUSSET Conference on Computer Supported Cooperative Work",
+    "type": "Chapter in Book/Report/Conference proceeding",
+    "classification": [
+      "peer-review"
+    ],
+    "doi": "10.48340/ecscw2025_cp05",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/understanding-distributed-cooperative-work-through-data-traces/",
+    "pdf": "https://research-portal.uu.nl/files/295346838/ecscw2025_cp05_2_.pdf",
+    "keywords": [
+      "active window tracking",
+      "cooperative work",
+      "data traces"
+    ],
+    "abstract": "Understanding cooperative work in distributed and hybrid settings is complex due to the interplay of multiple artifacts, technologies, and collaboration styles. This paper uses an auto-ethnographic approach to explore the collaborative practices of a geographically distributed scientific research team over one year, introducing Data Traces as a novel method for capturing interactions with artifacts and team members. We examine how Data Traces can support reflection and development of long-term group collaboration by providing detailed insights—such as patterns of teamwork and coordination—into the collaborative practices of the team. Our analysis produced three main findings:(1) Data Traces help visualize temporal rhythms in cooperative work,(2) Data Traces are shaped by the proximity across collocated, hybrid, or distributed participants, and (3) Data Traces cannot capture invisible work. These results contribute to the broader discussion on data tracking in CSCW by demonstrating the potential of Data Traces as a feature of cooperative technologies supporting group reflection connecting the use and relations of artifacts, devices, and applications in the larger ecology of artifacts."
   },
   {
     "title": "Understanding Student Behavior Using Active Window Tracking and Process Mining",
@@ -576,6 +654,33 @@
       "Systematic literature review"
     ],
     "abstract": "Organizations from various domains use process mining to better understand, analyze, and improve their business processes. While the overall value of process mining has been shown in several contexts, little is known about the specific actions that are taken to move from process mining insights to process improvement. In this work, we address this research gap by conducting a systematic literature review. Specifically, we investigate which types of actions have been taken in existing studies and to which insights these actions are linked. Our findings show that there exists a large variety of actions. Many of these actions do not only relate to changes to the investigated process but also to the associated information systems, the process documentation, the communication between staff members, and personnel training. Understanding the diversity of the actions triggered by process mining insights is important to instigate future research on the different aspects of translating process mining insights into process improvement. The insights-to-action realm presented in this work can inform and inspire new process mining initiatives and prepare for the effort required after acquiring process mining insights."
+  },
+  {
+    "title": "Interruptibility during scientific research collaborations: The effect of pressure, proximity and quiet time",
+    "authors": [
+      "Iris Beerepoot",
+      "Adela del-Río-Ortega",
+      "Manuel Resinas",
+      "Hajo A. Reijers"
+    ],
+    "year": 2024,
+    "date": "2024/11/13",
+    "venue": "CSCW Companion '24: Companion Publication of the 2024 Conference on Computer-Supported Cooperative Work and Social Computing",
+    "type": "Chapter in Book/Report/Conference proceeding",
+    "classification": [
+      "peer-review"
+    ],
+    "doi": "10.1145/3678884.3681848",
+    "arxiv": null,
+    "pure_url": "https://research-portal.uu.nl/en/publications/interruptibility-during-scientific-research-collaborations-the-ef/",
+    "pdf": "https://research-portal.uu.nl/files/295346926/3678884.3681848_2_.pdf",
+    "keywords": [
+      "interruptions",
+      "user interaction logs",
+      "deadlines",
+      "work setting"
+    ],
+    "abstract": "Work disruptions may derail scientific research projects by interrupting the flow of work and information transfer. In this study, we explore the interruptibility of scientific researchers and its correlation with contextual factors such as deadlines, outside-work hours, and location. We report in-progress findings from an autoethnographic study building on an analysis of interaction logs, as well as location and calendar data. This analysis provides a unique perspective on research projects that run for several months, revealing situations in which we allow ourselves to be interrupted. Our preliminary results provide metrics that highlight periods of high interruptibility and present initial results of a correlation analysis between interruptibility and work context. Our findings reveal that as deadlines approach, the urgency leads to longer uninterrupted work periods and the work is prioritized over other projects. Evening and weekend work is also more conducive to sustained work periods, whereas summer work and work done in close proximity to others is generally more fragmented."
   },
   {
     "title": "Preface",
@@ -825,7 +930,7 @@
     "doi": null,
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/from-insights-to-intel-evaluating-process-mining-insights-with-he/",
-    "pdf": null,
+    "pdf": "https://research-portal.uu.nl/files/295274641/2023_-_Beerepoot_et_al._-_From_insights_to_INTEL.pdf",
     "keywords": [
       "domain experts",
       "evaluation",
@@ -1228,7 +1333,7 @@
     "doi": null,
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/deuce-a-methodology-for-detecting-unauthorized-access-of-electron/",
-    "pdf": null,
+    "pdf": "https://research-portal.uu.nl/files/295274575/van-Andel-et-al.-2021-DEUCE-A-Methodology-for-Detecting-Unauthorized-Access-of-Electro.pdf",
     "keywords": [
       "Process Mining",
       "Electronic Health Records",
@@ -1476,7 +1581,7 @@
     "doi": null,
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/working-around-health-information-systems-the-role-of-power/",
-    "pdf": null,
+    "pdf": "https://research-portal.uu.nl/files/295274423/2019_WorkingAroundHealthInformationSystems_TheRoleOfPower.pdf",
     "keywords": [
       "Health Information Systems",
       "workarounds",
@@ -1504,7 +1609,7 @@
     "doi": null,
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/working-around-health-information-systems-to-accept-or-not-to-acc/",
-    "pdf": null,
+    "pdf": "https://research-portal.uu.nl/files/295274494/Beerepoot-et-al.-2019-Working-around-health-information-systems-To-accept-or-not-to-accept.pdf",
     "keywords": [
       "Workarounds",
       "Health Information Systems",
@@ -1529,7 +1634,7 @@
     "doi": null,
     "arxiv": null,
     "pure_url": "https://research-portal.uu.nl/en/publications/prevent-redesign-adopt-or-ignore-improving-healthcare-using-knowl/",
-    "pdf": null,
+    "pdf": "https://research-portal.uu.nl/files/295274311/Beerepoot-van-de-Weerd-2018-Prevent-redesign-adopt-or-ignore-Improving-healthcare-using-knowledge-of-workarounds.pdf",
     "keywords": [
       "Health Information Systems",
       "Process Improvement",
