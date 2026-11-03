@@ -10,17 +10,18 @@ permissions:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python3 -m venv .venv
+          .venv/bin/pip install -r requirements.txt
 
-      - run: pip install -r requirements.txt
-      - run: python scripts/fetch_pure.py
+      - name: Fetch publications from Pure
+        run: .venv/bin/python scripts/fetch_pure.py
 
       - name: Commit if changed
         run: |
