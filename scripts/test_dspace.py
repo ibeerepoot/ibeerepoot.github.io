@@ -39,13 +39,11 @@ else:
         print(f"  {n:>3}  {t}")
     print("\nEerste entry:\n" + entries[0][:3000])
 
-    # Volledige metadata via de DSpace REST API, voor het eerste item
-    link = re.search(r'href="([^"]*/(?:items|handle)/[^"]+)"', entries[0])
-    uuid = re.search(r"([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})", entries[0])
-    if uuid:
-        st, js = get(f"https://dspace.library.uu.nl/server/api/core/items/{uuid.group(1)}",
+    # Volledige metadata via de DSpace REST API, voor de eerste drie items
+    for handle in re.findall(r"/handle/(\d+/\d+)", "".join(entries))[1:4]:
+        st, js = get(f"https://dspace.library.uu.nl/server/api/pid/find?id=hdl:{handle}",
                      "application/json")
-        print(f"\nREST API item {uuid.group(1)}: status {st}")
+        print(f"\nREST API hdl:{handle}: status {st}")
         if st == 200:
             md = json.loads(js).get("metadata", {})
             for k, v in md.items():
