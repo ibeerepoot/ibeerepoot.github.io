@@ -9,6 +9,4 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/publisher_keywords.py
-      - run: python3 scripts/test_dspace.py
-        if: always()
+      - run: python3 scripts/fetch_dspace.py --compare
