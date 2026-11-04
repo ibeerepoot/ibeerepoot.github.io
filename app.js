@@ -35,11 +35,12 @@
     setup(pubs) {
       const all = pubs.map((p, i) => Object.assign({}, p, {
         _id: i,
-        // De site levert pure_url; het ontwerp rekende op p.url.
-        url: p.pure_url,
+        // De site levert pure_url (of repository_url voor items uit de UU-repository);
+        // het ontwerp rekende op p.url.
+        url: p.pure_url || p.repository_url,
         link: p.doi
           ? (/^http/.test(p.doi) ? p.doi : 'https://doi.org/' + p.doi)
-          : (p.pure_url || p.arxiv || '#'),
+          : (p.pure_url || p.repository_url || p.arxiv || '#'),
         _cat: TYPE[p.type] || 'Work',
       }));
       all.forEach(p => {
@@ -727,7 +728,7 @@
       const links = [];
       if (p.link && p.link !== '#') links.push(['Read', p.link]);
       if (p.pdf) links.push(['PDF', p.pdf]);
-      if (p.url && p.url !== p.link) links.push(['Pure', p.url]);
+      if (p.url && p.url !== p.link) links.push([p.pure_url ? 'Pure' : 'Repository', p.url]);
       if (links.length) {
         const row = el('div', 'rail-links');
         links.forEach(([lbl, href], i) => {
