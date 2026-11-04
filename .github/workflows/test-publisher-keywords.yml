@@ -10,3 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 scripts/publisher_keywords.py
+      - run: python3 scripts/test_dspace.py
+        if: always()
