@@ -1,5 +1,67 @@
 [
   {
+    "title": "Heuristic Work Crafting: A BPM-Inspired Approach to Individual Process Redesign",
+    "authors": [
+      "Iris Beerepoot",
+      "Inge van de Weerd",
+      "Thomas Martens",
+      "Maria Peeters",
+      "Hajo A. Reijers"
+    ],
+    "year": 2027,
+    "date": "2027",
+    "venue": "Business Process Management - 24th International Conference, BPM 2026, 2026, Proceedings",
+    "type": "Chapter in Book/Report/Conference proceeding",
+    "classification": [
+      "peer-review"
+    ],
+    "doi": "10.1007/978-3-032-37777-7_37",
+    "arxiv": null,
+    "pure_url": null,
+    "repository_url": "https://dspace.library.uu.nl/handle/1874/492758",
+    "pdf": null,
+    "keywords": [
+      "Individual work redesign",
+      "Job crafting",
+      "Knowledge workers",
+      "Process redesign"
+    ],
+    "abstract": "Knowledge workers have considerable autonomy in how they structure their daily tasks, yet systematic guidance for improving individual work practices remains scarce. This paper introduces CRAFT@work, an approach that bridges job crafting theory from Work & Organisational Psychology with process redesign heuristics from the BPM field to support self-directed work improvement. We developed a catalogue of 29 individual work redesign heuristics, adapted from established process redesign heuristics, and evaluated them through an intervention study with 12 knowledge workers across diverse occupational contexts. The intervention consisted of individualised coaching sessions in which participants reflected on their current work, created a Personal Crafting Plan, and subsequently enacted and reflected on their chosen heuristics over a four-week period. Results show that the heuristics are broadly applicable across the occupational contexts included in this study, with every heuristic considered relevant by at least five participants. Almost all participants were able to enact meaningful changes to their work, with several reporting concrete improvements. The most impactful heuristics specifically target the ambiguities and information bottlenecks that slow down or complicate work, making BPM a uniquely situated discipline for addressing the friction that knowledge workers experience."
+  },
+  {
+    "title": "Participatory Process Mining: A Framework and Call for Research",
+    "authors": [
+      "Vinicius Stein Dani",
+      "Iris Beerepoot",
+      "Thomas Grisold",
+      "Hajo A. Reijers",
+      "Adela del-Río-Ortega"
+    ],
+    "year": 2027,
+    "date": "2027",
+    "venue": "Business Process Management",
+    "type": "Chapter in Book/Report/Conference proceeding",
+    "classification": [
+      "peer-review"
+    ],
+    "doi": "10.1007/978-3-032-36710-5_6",
+    "arxiv": null,
+    "pure_url": null,
+    "repository_url": "https://dspace.library.uu.nl/handle/1874/492470",
+    "pdf": null,
+    "keywords": [
+      "employee involvement",
+      "empowerment",
+      "participation",
+      "process minee",
+      "process mining",
+      "responsible BPM",
+      "transparency",
+      "Information Systems"
+    ],
+    "abstract": "Process mining is used to create transparency about organizational work by analyzing event data from business processes. Although such transparency is often assumed to be inherently beneficial, the dominant strand is that transparency is imposed “top-down”. Decision-makers and developers initiate and direct process mining initiatives, while those performing the work have hardly any say. This can be problematic, not least because transparency can lead to perceived surveillance, misrepresentation, and resistance on the side of workers. This paper foregrounds the role of transparency as a socio-technical phenomenon constructed through a series of decisions made at different stages of the process mining lifecycle. To proactively consider and involve the voices of those whose activities are mined and analyzed –who we refer to as the process minees– we introduce the concept of Participatory Process Mining, an approach in which the process minees are recognized as key stakeholders in shaping the conditions under which transparency about their work is produced and used. We propose a conceptual framework that distinguishes the levels (data, tool, organizational) at which participation can be enabled across the process mining lifecycle, and the degrees of participation that can be realized at each level. Moreover, we outline directions for future research to examine how these forms of participation shape process minee perceptions of transparency and empowerment."
+  },
+  {
     "title": "From Prompt to Process: Event Log Extraction From Relational Databases Using Large Language Models",
     "authors": [
       "Vinicius Stein Dani",
@@ -85,6 +147,37 @@
       "Behavioral Patterns",
       "Organizational Behavior",
       "E-Government"
+    ],
+    "abstract": "Freedom of Information (FOI) laws aim to increase government transparency, yet existing assessments focus mainly on legal compliance and procedural outcomes, leaving organizational behavior underexamined. As FOI processes are increasingly mediated through digital information systems, public response data offer traces of how organizations handle requests and disclosures in practice. This paper develops and evaluates a pattern-based approach that uses such data to signal transparency-impeding behavior across government agencies and over time. Drawing on prior literature, we identify nine recurring behavioral patterns that undermine transparency. Using a dataset of 15,277 Dutch FOI dossiers comprising 139,449 documents, we operationalize and evaluate measurable indicators for six of these patterns, demonstrating that they enable systematic comparison of disclosure practices across agencies and over time. Expert interviews with researchers, journalists, and civil servants confirm the interpretability and practical usefulness of the indicators for investigative prioritization, comparative research, and transparency oversight."
+  },
+  {
+    "title": "Shadows of Transparency: Signaling Transparency-Impeding Behavior Using Public Data",
+    "authors": [
+      "Jos Zuijderwijk",
+      "Iris Beerepoot",
+      "Thomas Martens",
+      "Eva Knies",
+      "Tanja van der Lippe",
+      "Hajo A. Reijers"
+    ],
+    "year": 2026,
+    "date": "2026/09/09",
+    "venue": "Springer",
+    "type": "Chapter in Book/Report/Conference proceeding",
+    "classification": [
+      "peer-review"
+    ],
+    "doi": "10.1007/978-3-032-35747-2_23",
+    "arxiv": null,
+    "pure_url": null,
+    "repository_url": "https://dspace.library.uu.nl/handle/1874/492321",
+    "pdf": null,
+    "keywords": [
+      "Behavioral Patterns",
+      "E-Government",
+      "Freedom of Information",
+      "Government Transparency",
+      "Organizational Behavior"
     ],
     "abstract": "Freedom of Information (FOI) laws aim to increase government transparency, yet existing assessments focus mainly on legal compliance and procedural outcomes, leaving organizational behavior underexamined. As FOI processes are increasingly mediated through digital information systems, public response data offer traces of how organizations handle requests and disclosures in practice. This paper develops and evaluates a pattern-based approach that uses such data to signal transparency-impeding behavior across government agencies and over time. Drawing on prior literature, we identify nine recurring behavioral patterns that undermine transparency. Using a dataset of 15,277 Dutch FOI dossiers comprising 139,449 documents, we operationalize and evaluate measurable indicators for six of these patterns, demonstrating that they enable systematic comparison of disclosure practices across agencies and over time. Expert interviews with researchers, journalists, and civil servants confirm the interpretability and practical usefulness of the indicators for investigative prioritization, comparative research, and transparency oversight."
   },
